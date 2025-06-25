@@ -115,27 +115,44 @@ document.addEventListener("DOMContentLoaded", () => {
                 document.querySelector(".selection-info").innerHTML = `Selected: <strong>${selectedQuantity} × ${selectedWeight}</strong>`;
             };
 
-            window.addToCart = (productName) => {
-                const item = {
-                    product: productName,
-                    quantity: selectedQuantity,
-                    weight: selectedWeight
-                };
-                alert(`Added to cart: ${JSON.stringify(item)}`);
-            };
+            // window.addToCart = (productName) => {
+            //     const item = {
+            //         product: productName,
+            //         quantity: selectedQuantity,
+            //         weight: selectedWeight
+            //     };
+            //     alert(`Added to cart: ${JSON.stringify(item)}`);
+            // };
 
             renderProduct();
         });
-        function addToCart(productName) {
+        // function addToCart(productName) {
+        //   const 
+        //     const cart = JSON.parse(localStorage.getItem("cart")) || [];
+        //     const index = cart.findIndex(item => item.name === productName);
+        //     if (index !== -1) {
+        //         cart[index].quantity += 1;
+        //     } else {
+        //         cart.push({ name: productName, quantity: 1 });
+        //     }
+        //     localStorage.setItem("cart", JSON.stringify(cart));
+        //      alert(`Added to cart: ${JSON.stringify(productName)}`);
+        //     // window.location.href = "cart.html";
+        // }
+
+         function addToCart(productName) {
+          const quantitySelected = parseInt(document.getElementById("qty-display").textContent.trim(), 10) || 1;
+
             const cart = JSON.parse(localStorage.getItem("cart")) || [];
             const index = cart.findIndex(item => item.name === productName);
             if (index !== -1) {
                 cart[index].quantity += 1;
             } else {
-                cart.push({ name: productName, quantity: 1 });
+                cart.push({ name: productName, quantity:quantitySelected });
             }
             localStorage.setItem("cart", JSON.stringify(cart));
-            window.location.href = "cart.html";
+            alert(`Added to carts: ${productName}`)
+            window.location.reload();
         }
         document.addEventListener("DOMContentLoaded", updateCartCount);
 
