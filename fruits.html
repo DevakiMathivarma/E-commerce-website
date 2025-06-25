@@ -1,192 +1,169 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Fruits</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f6fa;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-header h1 {
-  text-align: center;
-  color: green;
-}
-
-.controls {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 0;
-}
-
-.filter-box, .sort-box {
-  background: #fff;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-#priceRange {
-  width: 200px;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.product-card {
-  background: white;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
-}
-
-.product-card img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.product-card h3 {
-  margin: 10px 0 5px;
-}
-
-.price {
-  font-weight: bold;
-  font-size: 18px;
-}
-
-.stars {
-  color: gold;
-}
-
-button {
-  background: #28a745;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  margin-top: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fruits</title>
+     <link rel="icon" type="image/png" href="assets/images/logo.png">
+     
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/fruits.css">
+    <style>
+      
+    </style>
 </head>
+
 <body>
-  <div class="container">
-    <header>
-      <h1>Vegetables</h1>
+    <div class="top-banner">
+        Fresh & Organic produce form our farmers to your kitchen
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo-section">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/leaf.png" class="logo" />
+            <div class="tagline">GROCERIES<br>AT DOORSTEP</div>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="search-input" placeholder="Search for products" class="search-box" />
+              <button class="search-btn"><span><i class='bx bx-search'></i></span> Search</button>
+        </div>
     </header>
 
-    <div class="controls">
-      <div class="filter-box">
-        <label for="priceRange">Sort by Price</label>
-        <input type="range" id="priceRange" min="0" max="500" value="500" />
-        <span id="priceValue">500</span>
-      </div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+         <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="categories.html" class="active">Categories</a></li>
+            <li><a href="#">Best Sales</a></li>
+            <li><a href="blog.html">Blogs</a></li>
+            <li>
+                <div class="cart-wrapper">
+                    <img src="https://img.icons8.com/ios-glyphs/30/4CAF50/shopping-basket.png" class="cart-icon"
+                        onclick="goToCart()" />
+                    <span id="cart-count">0</span>
+                </div>
+            </li>
+            <li><button class="register-btn" id="register-btn"onclick="goToRegister()">Register Now</button></li>
+             <li class="close-btn" onclick="toggleMenu()">×</li>
+        </ul>
+    </nav>
 
-      <div class="sort-box">
-        <label for="sortSelect">Sort by:</label>
-        <select id="sortSelect">
-          <option value="featured">Featured</option>
-          <option value="priceLowHigh">Price: Low to High</option>
-          <option value="priceHighLow">Price: High to Low</option>
-          <option value="ratingHighLow">Rating: High to Low</option>
-        </select>
-      </div>
+    <!-- Main Container -->
+    <div class="main-veg-container">
+        <div class="container">
+            <header>
+                <h1>Fruits</h1>
+            </header>
+
+            <div class="controls">
+                <div class="filter-box">
+                    <p style="font-size: 20px; font-weight: bold; margin-bottom: 30px;">Filter</p>
+                    <label for="priceRange">Sort by Price</label>
+ 
+                    <input type="range" id="priceRange" min="0" max="500" value="500" />
+                   <span id="priceValue">500</span>
+
+                </div>
+
+                <div class="veg-product">
+                    <div class="sort-box">
+                        <label for="sortSelect">Sort by:</label>
+                        <select id="sortSelect">
+                            <option value="featured">Featured</option>
+                            <option value="priceLowHigh">Price: Low to High</option>
+                            <option value="priceHighLow">Price: High to Low</option>
+                            <option value="ratingHighLow">Rating: High to Low</option>
+                        </select>
+                    </div>
+                    <div id="productGrid" class="product-grid"></div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------feature banner----------- -->
+
+        <div class="feature-get">
+            <div class="getintouch">
+                <img src="assets/images/getin.PNG">
+            </div>
+            <div class="feature-banner">
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/delivery.png" alt="Free Shipping" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>Free Shipping</strong>
+                        <p>For Orders Above 500</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/plant-under-sun.png"
+                            alt="Fresh Produce" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>Fresh Produce</strong>
+                        <p>Guaranteed Product Warranty</p>
+                    </div>
+                </div>
+
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/shield.png" alt="Safety" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>100% Safety & Security</strong>
+                        <p>Your Data is Highly Secured</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div id="productGrid" class="product-grid"></div>
+    <!-- ----footer---- -->
+     <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <img src="assets/images/logo.png" alt="Groceries at Doorstep" class="footer-logo" />
+      <p class="footer-desc">
+        Fresh groceries, particularly fruits, vegetables, whole grains, and lean proteins, play a crucial role in nourishing our bodies and promoting overall well-being.
+      </p>
+    </div>
+     <div class="footer-column">
+        <h4>NAVIGATE</h4>
+        <ul>
+          <li><a href="privacypolicy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="howto-order.html">How to Order</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+
+    <div class="footer-column">
+      <h4>G-STORE</h4>
+      <ul>
+        <li>Reg: T21542GST548</li>
+        <li>TIN: 14578452884</li>
+        <li>Email: groceries.at.doorstep@gmail.com</li>
+      </ul>
+    </div>
   </div>
+  <div class="footer-bottom">
+    Copyrights 2022© Groceries At Doorstep Ltd
+  </div>
+</footer>
 
-  <script src="grocery_products.js"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("productGrid");
-  const range = document.getElementById("priceRange");
-  const priceLabel = document.getElementById("priceValue");
-  const sortSelect = document.getElementById("sortSelect");
 
-  // Filter only Fruits category
-  let products = productList.filter(p => p.category === "Fruits");
+    <!-- Scripts -->
+     <script src="assets/js/login/Register.js"></script>
+    <script src="grocery_products.js"></script>
 
-  // Display cards
-  function displayProducts(list) {
-    container.innerHTML = "";
-    list.forEach(product => {
-      const card = document.createElement("div");
-      card.className = "product-card";
-      card.innerHTML = `
-        <img src="${product.images[0]}" alt="${product.name}" onclick="goToDetails('${product.name}')" />
-        <h3>${product.name}</h3>
-        <div class="price">₹ ${product.price}</div>
-        <div class="stars">${"★".repeat(product.rating)}${"☆".repeat(5 - product.rating)}</div>
-        <button onclick="addToCart('${product.name}')">Add to cart</button>
-      `;
-      container.appendChild(card);
-    });
-  }
-
-  // Sort and filter based on user input
-  function sortAndFilter() {
-    let filtered = products.filter(p => p.price <= parseInt(range.value));
-    const sort = sortSelect.value;
-
-    if (sort === "priceLowHigh") filtered.sort((a, b) => a.price - b.price);
-    if (sort === "priceHighLow") filtered.sort((a, b) => b.price - a.price);
-    if (sort === "ratingHighLow") filtered.sort((a, b) => b.rating - a.rating);
-
-    displayProducts(filtered);
-  }
-
-  // Event listeners
-  range.addEventListener("input", () => {
-    priceLabel.textContent = range.value;
-    sortAndFilter();
-  });
-
-  sortSelect.addEventListener("change", sortAndFilter);
-
-  displayProducts(products);
-});
-
-// Add to cart with localStorage
-function addToCart(productName) {
-  const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  const index = cart.findIndex(item => item.name === productName);
-  if (index !== -1) {
-    cart[index].quantity += 1;
-  } else {
-    cart.push({ name: productName, quantity: 1 });
-  }
-  localStorage.setItem("cart", JSON.stringify(cart));
-  alert("Added to cart");
-}
-
-// Redirect to description page
-function goToDetails(name) {
-  window.location.href = `description.html?product=${encodeURIComponent(name)}`;
-}
-
-  </script>
+    <script src="assets/js/fruits.js">
+      
+    </script>
 </body>
+
 </html>

@@ -28,28 +28,20 @@ function goToDetails(productName) {
 }
 
 function addToCart(productName) {
+  const isLoggedIn = localStorage.getItem("isLoggedIn");
+  if (isLoggedIn !== "true") {
+    alert("Please login first to add items to cart.");
+    window.location.href = "register.html"; // redirect to login/register page
+    return;
+  }
   window.location.href = `cart.html?add=${encodeURIComponent(productName)}`;
 }
 
 //  product tab script 
 
-  const newArrivals = [
-    { name: "European Zesty Lemon", price: 80, image: "https://via.placeholder.com/70x70.png?text=Lemon", rating: 4, category: "Fruits" },
-    { name: "Apple from Kashmir", price: 240, image: "https://via.placeholder.com/70x70.png?text=Apple", rating: 5, category: "Fruits" },
-    { name: "Coconuts", price: 320, image: "https://via.placeholder.com/70x70.png?text=Coconut", rating: 4, category: "Fruits" },
-  ];
-
-  const trending = [
-    { name: "Organic Garlic", price: 150, image: "https://via.placeholder.com/70x70.png?text=Garlic", rating: 4, category: "Vegetables" },
-    { name: "Strawberries", price: 240, image: "https://via.placeholder.com/70x70.png?text=Strawberries", rating: 5, category: "Fruits" },
-    { name: "Spinach", price: 25, image: "https://via.placeholder.com/70x70.png?text=Spinach", rating: 3, category: "Leafy Greens" },
-  ];
-
-  const bestSellings = [
-    { name: "Raddish", price: 80, image: "https://via.placeholder.com/70x70.png?text=Raddish", rating: 4, category: "Vegetables" },
-    { name: "Sardines in Fish", price: 100, image: "https://via.placeholder.com/70x70.png?text=Sardines", rating: 5, category: "Seafood" },
-    { name: "Coriander Leaves", price: 15, image: "https://via.placeholder.com/70x70.png?text=Coriander", rating: 4, category: "Herbs" },
-  ];
+const newArrivals = productList.slice(50, 53);
+const trending = productList.slice(54, 57);
+const bestSellings = productList.slice(57, 60);
 
   // ⬇ Register them into global productList (if available)
   if (typeof productList !== "undefined") {
@@ -99,12 +91,12 @@ function addToCart(productName) {
       const div = document.createElement("div");
       div.className = "product-item";
       div.innerHTML = `
-        <img src="${p.image}" alt="${p.name}" />
+        <img src="${p.images[0]}" alt="${p.name}" />
         <div class="product-info">
           <h4>${p.name}</h4>
           <div class="price">₹ ${p.price}</div>
           <div class="stars">${"★".repeat(p.rating)}${"☆".repeat(5 - p.rating)}</div>
-          <button onclick="addToCart('${p.name}')">Add to cart</button>
+          <button class="trend-btn"onclick="addToCart('${p.name}')">Add to cart</button>
         </div>
       `;
       container.appendChild(div);
@@ -112,4 +104,24 @@ function addToCart(productName) {
   }
 
   showTab("new"); // Show New Arrivals by default
+
+document.addEventListener("DOMContentLoaded", () => {
+  const container = document.getElementById("product-bestlist");
+
+  productList.slice(4, 8).forEach(product => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+
+    card.innerHTML = `
+      <img src="${product.images[0]}" alt="${product.name}" onclick="goToDetails('${product.name}')" />
+      <h3>${product.name}</h3>
+      <div class="price">₹ ${product.price}</div>
+      <div class="stars">${generateStars(product.rating)}</div>
+      <button onclick="addToCart('${product.name}')">Add to cart</button>
+    `;
+
+    container.appendChild(card);
+  });
+
+});
 

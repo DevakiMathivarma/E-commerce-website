@@ -4,289 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" type="image/png" href="assets/images/logo.png">
+      
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Categories</title>
-    <link rel="stylesheet" href="categories.css" />
-    <style>
-            * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        .top-banner {
-            background-color: #4CAF50;
-            /* green */
-            color: white;
-            text-align: center;
-            padding: 10px 12px;
-            font-size: 18px;
-
-            font-family: Arial, sans-serif;
-            letter-spacing: 0.5px;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 30px;
-            border-bottom: 1px solid #ccc;
-            flex-wrap: wrap;
-        }
-
-        .logo-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            margin-left: 100px;
-        }
-
-        .logo {
-            width: 30px;
-        }
-
-        .tagline {
-            font-weight: bold;
-            font-size: 16px;
-            color: #4CAF50;
-        }
-
-        .search-section {
-            display: flex;
-            align-items: center;
-            gap: 0;
-            flex: 1;
-            justify-content: center;
-            margin: 10px 0;
-
-        }
-
-        .search-section {
-            margin-right: 100px;
-        }
-
-
-        .search-box {
-            width: 350px;
-            padding: 10px;
-            border: 1px solid #000;
-            font-size: 16px;
-          
-        }
-
-        .search-btn {
-            background-color: #FF8000;
-            border: none;
-            padding: 10px 20px;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-           
-        }
-
-        .navbar {
-            position: sticky;
-            z-index: 1000;
-            top: 0;
-            background-color: white;
-            border-top: 1px solid #eee;
-            border-bottom: 1px solid #eee;
-            width: 100%;
-        }
-
-        .navbar ul {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 40px;
-            list-style: none;
-            padding: 10px 0;
-        }
-
-        .navbar a.active {
-            color: #4CAF50;
-            /* Green */
-            font-weight: bold;
-        }
-
-        .navbar a {
-            text-decoration: none;
-            color: #111;
-            font-weight: bold;
-            font-size: 18px;
-        }
-
-
-        .cart-wrapper {
-            position: relative;
-            display: inline-block;
-        }
-
-        .cart-icon {
-            width: 30px;
-            height: 30px;
-            border: 1px solid #4CAF50;
-            padding: 5px;
-            border-radius: 4px;
-            cursor:pointer;
-        }
-
-        /* Badge styling */
-        #cart-count {
-            position: absolute;
-            top: -13px;
-            right: -9px;
-            background-color: red;
-            color: white;
-            font-size: 12px;
-            font-weight: bold;
-            padding: 6px 6px;
-            border-radius: 50%;
-            line-height: 1;
-            min-width: 18px;
-            text-align: center;
-        }
-
-        .register-btn {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            font-weight: bold;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 30px 20px;
-        }
-
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 10px 10px;
-            justify-items: center;
-            margin-bottom: 40px;
-        }
-
-        .category-box {
-            text-align: center;
-            text-decoration: none;
-            color: #000;
-            transition: transform 0.2s ease;
-        }
-
-        .category-box:hover {
-            transform: scale(1.05);
-        }
-
-        .category-box img {
-            width: 100%;
-            max-width: 160px;
-            height: 160px;
-            object-fit: cover;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px;
-        }
-
-        .category-box p {
-          margin-top: 10px;
-          margin-bottom: 10px;
-            font-size: 16px;
-            font-weight: 600;
-        }
-
-
-.footer-strip {
-  display: flex;
-  height: 110px;
-  background-color: #f5f7fa;
-  font-family: Arial, sans-serif;
-  overflow: hidden;
-  position: relative;
-}
-
-/* Left Slant Side */
-.footer-left {
-  position: relative;
-  width: 48%;
-  height: 100%;
-}
-
-.slant-orange {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #ff8000;
-  clip-path: polygon(0 0, 93% 0, 83% 100%, 0% 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 40px;
-  color: white;
-  z-index: 2;
-}
-
-.slant-orange h2 {
-  font-size: 22px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.slant-orange p {
-  font-size: 18px;
-  margin: 5px 0 0;
-}
-
-/* Blue Shape */
-.blue-shape {
-  position: absolute;
-  top: 0;
-  right: -45px;
-  width: 100px;
-  height: 100%;
-  background-color: #001f3f;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
-  z-index: 1;
-}
-
-/* Assurance section */
-.footer-right {
-  width: 52%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-}
-
-.assurance-block {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  max-width: 240px;
-}
-
-.icon-circle {
-  background-color: #d4f4d1;
-  border-radius: 50%;
-  width: 46px;
-  height: 46px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-
-    </style>
+    <link rel="stylesheet" href="assets/css/category.css" />
 </head>
 
 <body>
@@ -302,16 +24,17 @@
 
         <div class="search-section">
             <input type="text" placeholder="Search for products" class="search-box" />
-            <button class="search-btn">🔍 Search</button>
+            <button class="search-btn"><span><i class='bx bx-search'></i></span> Search</button>
         </div>
     </header>
 
     <!-- Navbar -->
-    <nav class="navbar">
-        <ul>
+    <nav class="navbar" id="navbar">
+         <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <ul id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="categories.html" class="active">Categories</a></li>
-            <li><a href="#">Best Sales</a></li>
+            <li><a href="best_sales.html">Best Sales</a></li>
             <li><a href="blog.html">Blogs</a></li>
             <li>
                 <div class="cart-wrapper">
@@ -320,10 +43,11 @@
                     <span id="cart-count">0</span>
                 </div>
             </li>
-            <li><button class="register-btn">Register Now</button></li>
+            <li><button class="register-btn" id="register-btn"onclick="goToRegister()">Register Now</button></li>
+            <li class="close-btn" onclick="toggleMenu()">×</li>
         </ul>
     </nav>
-
+<div class="main-content">
     <div class="container">
         <div class="categories-grid">
             <a href="fruits.html" class="category-box">
@@ -362,40 +86,82 @@
 
     </div>
 
-   <script>
- document.addEventListener("DOMContentLoaded", () => {
-      updateCartCount();
-    });
+            <!-- ----------feature banner----------- -->
 
-    // Add item to cart
-    function addToCart(productName) {
-      const cart = JSON.parse(localStorage.getItem("cart")) || [];
-      const index = cart.findIndex(item => item.name === productName);
-      if (index !== -1) {
-        cart[index].quantity += 1;
-      } else {
-        cart.push({ name: productName, quantity: 1 });
-      }
-      localStorage.setItem("cart", JSON.stringify(cart));
-      updateCartCount();
-      alert("Added to cart");
-    }
+        <div class="feature-get">
+            <div class="getintouch">
+                <img src="assets/images/getin.PNG">
+            </div>
+            <div class="feature-banner">
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/delivery.png" alt="Free Shipping" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>Free Shipping</strong>
+                        <p>For Orders Above 500</p>
+                    </div>
+                </div>
 
-    // Update count badge
-    function updateCartCount() {
-      const cart = JSON.parse(localStorage.getItem("cart")) || [];
-      const count = cart.reduce((acc, item) => acc + item.quantity, 0);
-      const countSpan = document.getElementById("cart-count");
-      if (countSpan) {
-        countSpan.textContent = count;
-      }
-    }
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/plant-under-sun.png"
+                            alt="Fresh Produce" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>Fresh Produce</strong>
+                        <p>Guaranteed Product Warranty</p>
+                    </div>
+                </div>
 
-    // Navigate to cart page
-    function goToCart() {
-      window.location.href = "cart.html";
-    }
-   </script>
+                <div class="feature-item">
+                    <div class="icon-circle">
+                        <img src="https://img.icons8.com/ios-filled/50/4CAF50/shield.png" alt="Safety" />
+                    </div>
+                    <div class="feature-text">
+                        <strong>100% Safety & Security</strong>
+                        <p>Your Data is Highly Secured</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- ----footer---- -->
+     <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-column">
+      <img src="assets/images/logo.png" alt="Groceries at Doorstep" class="footer-logo" />
+      <p class="footer-desc">
+        Fresh groceries, particularly fruits, vegetables, whole grains, and lean proteins, play a crucial role in nourishing our bodies and promoting overall well-being.
+      </p>
+    </div>
+
+     <div class="footer-column">
+        <h4>NAVIGATE</h4>
+        <ul>
+          <li><a href="privacypolicy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="howto-order.html">How to Order</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+
+    <div class="footer-column">
+      <h4>G-STORE</h4>
+      <ul>
+        <li>Reg: T21542GST548</li>
+        <li>TIN: 14578452884</li>
+        <li>Email: groceries.at.doorstep@gmail.com</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    Copyrights 2022© Groceries At Doorstep Ltd
+  </div>
+</footer>
+
+   <script src="assets/js/category.js"></script>
 
 </body>
 

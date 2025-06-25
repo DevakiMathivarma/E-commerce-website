@@ -4,458 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Responsive Grocery Header</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title> Grocery Header</title>
+  <link rel="stylesheet" href="assets/css/index.css">
   <style>
-    /* Reset */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-
-    .top-banner {
-      background-color: #4CAF50;
-      /* green */
-      color: white;
-      text-align: center;
-      padding: 10px 12px;
-      font-size: 18px;
-
-      font-family: Arial, sans-serif;
-      letter-spacing: 0.5px;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-    }
-
-    /* Header Layout */
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 12px 30px;
-      border-bottom: 1px solid #ccc;
-      flex-wrap: wrap;
-    }
-
-    /* Logo and Text */
-    .logo-section {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-left: 100px;
-    }
-
-    .logo {
-      width: 30px;
-    }
-
-    .tagline {
-      font-weight: bold;
-      font-size: 16px;
-      color: #4CAF50;
-    }
-
-    /* Search Section */
-    .search-section {
-      display: flex;
-      align-items: center;
-      gap: 0;
-      flex: 1;
-      justify-content: center;
-      margin: 10px 0;
-    }
-
-    .search-section {
-      margin-right: 100px;
-    }
-
-    .search-box {
-      width: 350px;
-      padding: 10px;
-      border: 1px solid #000;
-      font-size: 16px;
-    }
-
-    .search-btn {
-      background-color: #FF8000;
-      border: none;
-      padding: 10px 20px;
-      color: white;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    /* Right Section */
-    .right-section {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .cart-wrapper {
-      position: relative;
-      display: inline-block;
-    }
-
-    .cart-icon {
-      width: 30px;
-      height: 30px;
-      border: 1px solid #4CAF50;
-      padding: 5px;
-      border-radius: 4px;
-    }
-
-    /* Badge styling */
-    #cart-count {
-      position: absolute;
-      top: -13px;
-      right: -9px;
-      background-color: red;
-      color: white;
-      font-size: 12px;
-      font-weight: bold;
-      padding: 6px 6px;
-      border-radius: 50%;
-      line-height: 1;
-      min-width: 18px;
-      text-align: center;
-    }
-
-
-    .register-btn {
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      padding: 10px 15px;
-      font-weight: bold;
-      font-size: 16px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .menu-toggle {
-      display: none;
-      background: none;
-      border: none;
-      font-size: 28px;
-      cursor: pointer;
-    }
-
-    /* Navbar */
-    .navbar {
-      position: sticky;
-      z-index: 1000;
-      top: 0;
-      background-color: white;
-      border-top: 1px solid #eee;
-      border-bottom: 1px solid #eee;
-      width: 100%;
-    }
-
-    .navbar ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 40px;
-      list-style: none;
-      padding: 10px 0;
-    }
-
-    .navbar a {
-      text-decoration: none;
-      color: #111;
-      font-weight: bold;
-      font-size: 18px;
-    }
-
-    .navbar a.active {
-      color: #4CAF50;
-      /* Green */
-      font-weight: bold;
-    }
-
-    .navbar .close-btn {
-      display: none;
-      font-size: 28px;
-      cursor: pointer;
-    }
-
-    .menu-toggle {
-      display: none;
-      font-size: 28px;
-      background: none;
-      border: none;
-      cursor: pointer;
-    }
-
-    /* Hide close btn by default */
-    .close-btn {
-      display: none;
-      font-size: 28px;
-      cursor: pointer;
-    }
-
-    .banner {
-      width: 100%;
-      max-width: 1200px;
-      display: flex;
-      border-radius: 16px;
-      overflow: hidden;
-    }
-
-    .left-section,
-    .right-section {
-      position: relative;
-      flex: 1;
-      padding: 10px;
-    }
-
-    .left-section {
-      padding: 10px;
-    }
-
-    .left-section {
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding-left: 30px;
-    }
-
-    .left-section-text {
-      position: absolute;
-      left: 100px;
-      width: 30%;
-    }
-
-    .left-section .tagline {
-      font-size: 13px;
-      margin-bottom: 5px;
-    }
-
-    .left-section .tagline span:last-child {
-      color: red;
-    }
-
-    .left-section h1 {
-      font-size: 30px;
-      font-weight: bold;
-      line-height: 1.4;
-      margin-bottom: 20px;
-    }
-
-    .left-section h1 span {
-      color: #2fa245;
-    }
-
-    .left-section .description {
-      font-size: 13px;
-      line-height: 1.6;
-      margin-bottom: 30px;
-      color: #222;
-    }
-
-    .shop-btn {
-      display: inline-block;
-      background: #ff7e00;
-      color: #fff;
-      padding: 12px 24px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* .cart-img {
-      position: absolute;
-      right: 40px;
-      bottom: 40px;
-      width: 45%;
-    }  */
-
-    /* .right-section {
-      background-color: #202837;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-    }
-
-    .discount-label {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      background: #ff4747;
-      color: white;
-      padding: 5px 10px;
-      font-weight: bold;
-      border-top-left-radius: 8px;
-      border-bottom-right-radius: 8px;
-    }
-
-    .right-section .black-friday {
-      color: #f06c6c;
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-
-    .right-section h2 {
-      font-size: 28px;
-      line-height: 1.4;
-      margin-bottom: 20px;
-    }
-
-    .right-section .shop-btn {
-      background-color: #ff7e00;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    /*  */
-    .right-section {
-      width: 95%;
-
-      overflow: hidden;
-      margin-right: 40px;
-      border-radius: 30px;
-
-    }
-
-    .right-section img {
-      width: 100%;
-      border-radius: 20px;
-      height: 500px;
-      cursor: pointer;
-      border-top-left-radius: 20px;
-    }
-
-    /* category section */
-    .category-section {
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .container {
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .section-title {
-      font-size: 28px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    .section-subtitle {
-      font-size: 20px;
-      color: black;
-      margin-bottom: 40px;
-    }
-
-    .category-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 20px;
-      justify-items: center;
-    }
-
-    .category-card {
-      background: white;
-      border-radius: 16px;
-      padding: 20px;
-      width: 100%;
-      max-width: 140px;
-      text-align: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
-      transition: transform 0.1s ease;
-      cursor: pointer;
-    }
-
-    .category-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .icon-circle {
-      width: 64px;
-      height: 64px;
-      border-radius: 50%;
-      margin: 0 auto 15px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #eee;
-      transition: background 0.1s ease;
-    }
-
-    .icon-circle img {
-      width: 32px;
-      height: 32px;
-    }
-
-    .category-card h3 {
-      font-size: 16px;
-      font-weight: 600;
-      margin: 5px 0;
-    }
-
-    .category-card p {
-      font-size: 14px;
-      color: #666;
-    }
-
-    .category-card:hover {
-      background: #ff8000;
-      /* vivid orange */
-      color: #fff;
-    }
-
-    .category-card:hover h3,
-    .category-card:hover p {
-      color: #fff;
-    }
-
-    .category-card:hover .icon-circle {
-      background: #ff9900;
-      /* slightly lighter orange */
-    }
-
-    .category-card:hover .icon-circle img {
-      filter: brightness(0) invert(1);
-      /* make icon white */
-    }
-
-    /* Color Themes */
-    .green {
-      background: #e3f9e5;
-    }
-
-    .pink {
-      background: #ffe9f2;
-    }
-
-    .brown {
-      background: #f5ece3;
-    }
-
-    .purple {
-      background: #ede8ff;
-    }
-
-    .blue {
-      background: #e4f0ff;
-    }
-
-    .yellow {
-      background: #fff9e3;
-    }
-
-
-    /* farm banner styling */
+   /* farm banner styling */
     .farm-banner {
       position: relative;
       background: url("assets/images/poster\ image\ home.png") no-repeat center center/cover;
@@ -470,6 +24,9 @@
       overflow: hidden;
     }
 
+            .navbar  a:hover{
+color: #4CAF50;
+        }
     .banner-content {
       max-width: 600px;
     }
@@ -502,260 +59,13 @@
     .banner-btn:hover {
       background: #e96c00;
     }
-
-
-    /* featured product styling */
-
-    .featured-products {
-      text-align: center;
-      padding: 40px 20px;
-    }
-
-    .featured-products h2 {
-      font-size: 32px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
-
-    .featured-products p {
-      font-size: 18px;
-      color: #555;
-      margin-bottom: 40px;
-    }
-
-    .product-list {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 24px;
-      justify-content: center;
-    }
-
-    .product-card {
-      background-color: white;
-      width: 220px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
-
-    .product-card img {
-      width: 100%;
-      height: 180px;
-      object-fit: cover;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .product-card h3 {
-      font-size: 18px;
-      margin: 15px 0 5px;
-    }
-
-    .product-card .price {
-      font-size: 20px;
-      font-weight: bold;
-      margin: 5px 0;
-    }
-
-    .stars {
-      color: gold;
-      margin-bottom: 12px;
-    }
-
-    .product-card button {
-      background-color: #28a745;
-      color: white;
-      font-weight: bold;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-    }
-
-    .product-card button:hover {
-      background-color: #218838;
+    .category-card h3 a{
+      text-decoration: none;
+      color:black;
     }
 
 
-    /* --best deals --- */
-    .container-deals{
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 20px;
-  }
 
-    .tabs-section {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 40px;
-    }
-    .product-tabs {
-      flex: 1;
-    }
-    .tab-buttons {
-      display: flex;
-      gap: 30px;
-      margin-bottom: 30px;
-    }
-    .tab-buttons button {
-      background: transparent;
-      border: none;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-      color: #000;
-      border-bottom: 2px solid transparent;
-      padding-bottom: 5px;
-    }
-    .tab-buttons button.active {
-      color: orange;
-      border-color: orange;
-    }
-    .tab-products .product-item {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-      margin-bottom: 20px;
-    }
-    .product-item img {
-      width: 80px;
-      height: 80px;
-      object-fit: cover;
-      border-radius: 6px;
-    }
-    .product-info h4 {
-      font-size: 16px;
-      margin-bottom: 5px;
-    }
-    .price {
-      font-size: 14px;
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
-    .add-to-cart {
-      background: green;
-      color: white;
-      border: none;
-      padding: 5px 10px;
-      font-size: 14px;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-    .discount-box {
-      flex: 1;
-      background: #f9f9f9;
-      padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-    .discount-box h3 {
-      font-size: 20px;
-      margin-bottom: 10px;
-      color: #111;
-    }
-    .discount-box h3 span {
-      color: orange;
-    }
-    .discount-box p {
-      font-size: 14px;
-      margin-bottom: 20px;
-    }
-    .discount-stats {
-      display: flex;
-      justify-content: space-between;
-      text-align: center;
-      font-size: 14px;
-    }
-    .discount-stats div {
-      font-weight: bold;
-    }
-    .best-deals {
-      background: #111;
-      color: white;
-      padding: 40px 20px;
-      margin-top: 40px;
-    }
-    .deals-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .deals-text {
-      flex: 1;
-    }
-    .deals-text h2 {
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
-    .highlight {
-      color: orange;
-    }
-    .deal-timer {
-      display: flex;
-      gap: 30px;
-      margin-top: 20px;
-    }
-    .deal-timer div {
-      text-align: center;
-    }
-    .deal-timer strong {
-      display: block;
-      font-size: 20px;
-    }
-    .deals-image {
-      flex: 1;
-      text-align: right;
-    }
-    .deals-image img {
-      width: 250px;
-      border-radius: 10px;
-    }
-    @media (max-width: 480px) {
-      .header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .search-section {
-        width: 100%;
-        justify-content: flex-start;
-      }
-
-      .search-box {
-        width: 100%;
-        max-width: 300px;
-      }
-
-
-      .menu-toggle {
-        display: block;
-      }
-
-      #nav-links {
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        background: white;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 0;
-        display: none;
-        border-bottom: 1px solid #ccc;
-      }
-
-      #nav-links.active {
-        display: flex;
-      }
-
-      .close-btn {
-        display: block;
-      }
-
-    }
   </style>
 </head>
 
@@ -775,7 +85,7 @@
 
     <div class="search-section">
       <input type="text" placeholder="Search for products" class="search-box" />
-      <button class="search-btn"><span>🔍</span> Search</button>
+      <button class="search-btn"><span><i class='bx bx-search'></i></span> Search</button>
     </div>
 
 
@@ -788,7 +98,7 @@
     <ul id="nav-links">
       <li><a href="index.html" class="active">Home</a></li>
       <li><a href="categories.html">Categories</a></li>
-      <li><a href="#">Best Sales</a></li>
+      <li><a href="best_sales.html">Best Sales</a></li>
       <li><a href="blog.html">Blogs</a></li>
       <li>
         <div class="cart-wrapper">
@@ -797,145 +107,269 @@
           <span id="cart-count">0</span>
         </div>
       </li>
-      <li><button class="register-btn">Register Now</button></li>
+      <li><button class="register-btn" id="register-btn"onclick="goToRegister()">Register Now</button></li>
       <li class="close-btn" onclick="toggleMenu()">×</li>
     </ul>
   </nav>
-
-<!-- ----banner section----- -->
-  <div class="banner">
-    <div class="left-section">
-      <div class="left-section-text">
-        <p class="tagline">Halal Products <span>Online Delivery Shop</span></p>
-        <h1>
-          Make Healthy <br />
-          Life with <span>Fresh</span> <br />
-          Grocery
-        </h1>
-        <p class="description">
-          Fresh groceries, particularly fruits, vegetables, whole grains, and lean proteins,<br />
-          play a crucial role in nourishing our bodies and promoting overall well-being
-        </p>
-        <a href="#" class="shop-btn">Shop Now</a>
+  <div class="main-content-section">
+    <!-- ----banner section----- -->
+    <div class="banner">
+      <div class="left-section">
+        <div class="left-section-text">
+          <p class="tagline">Halal Products <span>Online Delivery Shop</span></p>
+          <h1>
+            Make Healthy <br />
+            Life with <span>Fresh</span> <br />
+            Grocery
+          </h1>
+          <p class="description">
+            Fresh groceries, particularly fruits, vegetables, whole grains, and lean proteins,<br />
+            play a crucial role in nourishing our bodies and promoting overall well-being
+          </p>
+          <a href="categories.html" class="shop-btn">Shop Now</a>
+        </div>
+        <img src="assets/images/header image 1.png" alt="Grocery Cart" class="cart-img" />
       </div>
-      <img src="assets/images/header image 1.png" alt="Grocery Cart" class="cart-img" />
+      <div class="right-section">
+        <img src="assets/images/header3.PNG" alt="Fruits Background" class="fruits-img" />
+      </div>
     </div>
-    <div class="right-section">
-      <img src="assets/images/header3.PNG" alt="Fruits Background" class="fruits-img" />
-    </div>
-  </div>
 
-<!-- ---category section---- -->
-  <section class="category-section">
+    <!-- ---category section---- -->
+    <section class="category-section">
+      <div class="container">
+        <h2 class="section-title">Browse All Categories</h2>
+        <p class="section-subtitle">Explore a diverse range of categories to find exactly what you need!</p>
+        <div class="category-grid">
+          <div class="category-card">
+            <div class="icon-circle green">
+              <img src="assets/images/vegetable icon.png" alt="Vegetable">
+            </div>
+            <h3><a href="categories.html">Vegetables</a></h3>
+            <p>20 Items</p>
+          </div>
+          <div class="category-card">
+            <div class="icon-circle pink">
+              <img src="assets/images/fresh fruits icon.png" alt="Fresh Fruits">
+            </div>
+            <h3><a href="categories.html">Fresh Fruits</a></h3>
+            <p>12 Items</p>
+          </div>
+          <div class="category-card">
+            <div class="icon-circle brown">
+              <img src="assets/images/meat icon.png" alt="Meat">
+            </div>
+            <h3><a href="categories.html">Meat</a></h3>
+            <p>7 Items</p>
+          </div>
+          <div class="category-card">
+            <div class="icon-circle purple">
+              <img src="assets/images/dairy des 1.png" alt="Sea Food">
+            </div>
+            <h3><a href="categories.html">Sea Food</a></h3>
+            <p>12 Items</p>
+          </div>
+          <div class="category-card">
+            <div class="icon-circle blue">
+              <img src="assets/images/milk & diary icon.png" alt="Milk & dairy">
+            </div>
+            <h3><a href="categories.html">Milk & diary</a></h3>
+            <p>8 Items</p>
+          </div>
+          <div class="category-card">
+            <div class="icon-circle yellow">
+              <img src="assets/images/meat des 2.png" alt="Fresh Bread">
+            </div>
+            <h3><a href="categories.html">Fresh Bread</a></h3>
+            <p>24 Items</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- farm banner -->
+    <section class="farm-banner">
+      <div class="banner-content">
+        <p class="small-text">Enjoy upto 20% off on your first order</p>
+        <h2 class="main-text">Fresh Produce, From Farm <br> Products At A Reasonable Price!</h2>
+        <a href="#" class="banner-btn">Shop Now</a>
+      </div>
+    </section>
+
+
+    <!-- featured product section -->
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <p>Each item is carefully selected for quality, freshness, and nutritional benefits.</p>
+      <div id="product-list" class="product-list"></div>
+    </section>
+
+    <!-- --best deals section-- -->
     <div class="container">
-      <h2 class="section-title">Browse All Categories</h2>
-      <p class="section-subtitle">Explore a diverse range of categories to find exactly what you need!</p>
-      <div class="category-grid">
-        <div class="category-card">
-          <div class="icon-circle green">
-            <img src="assets/images/vegetable icon.png" alt="Vegetable">
+      <div class="tabs-section">
+        <div class="product-tabs">
+          <div class="tab-buttons">
+            <button class="active" onclick="showTab('new')">New Arrivals</button>
+            <button onclick="showTab('trending')">Trending Products</button>
+            <button onclick="showTab('best')">Best Sellings</button>
           </div>
-          <h3>Vegetable</h3>
-          <p>20 Items</p>
+          <div id="tab-products" class="tab-products"></div>
         </div>
-        <div class="category-card">
-          <div class="icon-circle pink">
-            <img src="assets/images/fresh fruits icon.png" alt="Fresh Fruits">
+        <div class="discount-box">
+          <h3>Get <span>20% Discount</span> on <br>Your First Sale</h3>
+          <p>To celebrate your first purchase with us, enjoy a 20% discount on your first order.</p>
+          <div class="discount-stats">
+            <div><span style="font-size: 30px; font-weight: bold;">45K+</span><br /><strong
+                style="font-weight: 700;">Active Users</strong></div>
+            <div><span style="font-size: 30px; font-weight: bold;">45K+</span><br /><strong
+                style="font-weight: 700;">Active Users</strong></div>
+            <div><span style="font-size: 30px; font-weight: bold;">45K+</span><br /><strong
+                style="font-weight: 700;">Active Users</strong></div>
           </div>
-          <h3>Fresh Fruits</h3>
-          <p>12 Items</p>
-        </div>
-        <div class="category-card">
-          <div class="icon-circle brown">
-            <img src="assets/images/meat icon.png" alt="Meat">
-          </div>
-          <h3>Meat</h3>
-          <p>7 Items</p>
-        </div>
-        <div class="category-card">
-          <div class="icon-circle purple">
-            <img src="assets/images/dairy des 1.png" alt="Sea Food">
-          </div>
-          <h3>Sea Food</h3>
-          <p>12 Items</p>
-        </div>
-        <div class="category-card">
-          <div class="icon-circle blue">
-            <img src="assets/images/milk & diary icon.png" alt="Milk & dairy">
-          </div>
-          <h3>Milk & diary</h3>
-          <p>8 Items</p>
-        </div>
-        <div class="category-card">
-          <div class="icon-circle yellow">
-            <img src="assets/images/meat des 2.png" alt="Fresh Bread">
-          </div>
-          <h3>Fresh Bread</h3>
-          <p>24 Items</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- farm banner -->
-  <section class="farm-banner">
-    <div class="banner-content">
-      <p class="small-text">Enjoy upto 20% off on your first order</p>
-      <h2 class="main-text">Fresh Produce, From Farm <br> Products At A Reasonable Price!</h2>
-      <a href="#" class="banner-btn">Shop Now</a>
-    </div>
-  </section>
-
-
-  <!-- featured product section -->
-  <section class="featured-products">
-    <h2>Featured Products</h2>
-    <p>Each item is carefully selected for quality, freshness, and nutritional benefits.</p>
-    <div id="product-list" class="product-list"></div>
-  </section>
-
-  <!-- --best deals section-- -->
-     <div class="container">
-    <div class="tabs-section">
-      <div class="product-tabs">
-        <div class="tab-buttons">
-          <button class="active" onclick="showTab('new')">New Arrivals</button>
-          <button onclick="showTab('trending')">Trending Products</button>
-          <button onclick="showTab('best')">Best Sellings</button>
-        </div>
-        <div id="tab-products" class="tab-products"></div>
-      </div>
-      <div class="discount-box">
-        <h3>Get <span>20% Discount</span> on Your First Sale</h3>
-        <p>To celebrate your first purchase with us, enjoy a 20% discount on your first order.</p>
-        <div class="discount-stats">
-          <div>45K+<br />Active Users</div>
-          <div>45K+<br />Active Users</div>
-          <div>45K+<br />Active Users</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <section class="best-deals">
-    <div class="container">
-      <div class="deals-content">
-        <div class="deals-text">
-          <h2>Best Deals <span class="highlight">This Week</span></h2>
-          <p>Don’t miss out on our incredible deals to help you save while enjoying fresh groceries!</p>
-          <div class="deal-timer">
-            <div><strong>7</strong>Days</div>
-            <div><strong>168</strong>Hours</div>
-            <div><strong>1004</strong>Minutes</div>
-          </div>
-        </div>
+    <section class="best-deals">
+      <div class="container relative-container">
         <div class="deals-image">
-          <img src="https://cdn.pixabay.com/photo/2020/09/21/09/34/lemons-5588578_1280.jpg" alt="Bag of Lemons" />
+          <img src="assets/images/poster image 2.png" alt="Bag of Lemons" />
+        </div>
+        <div class="deals-content">
+          <div class="deals-text">
+            <h2>Best Deals <span class="highlight">This Week</span></h2>
+            <p>Don’t miss out on our incredible deals to help you save while enjoying fresh groceries!</p>
+            <div class="deal-timer">
+              <div><strong>7</strong>Days</div>
+              <div><strong>168</strong>Hours</div>
+              <div><strong>1004</strong>Minutes</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product List INSIDE section but OVERLAPPING image -->
+
+      </div>
+    </section>
+    <section class="productsbest">
+      <div id="product-bestlist" class="product-list"></div>
+    </section>
+
+
+
+
+    <!-- ---feedback section-- -->
+    <section class="feedback-section">
+      <h2>Our Customer Feedback</h2>
+      <p>We value the opinions of our customers that brings improvement in our services</p>
+
+      <div class="feedback-content">
+        <div class="map-section">
+          <img src="assets/images/map home image.png" alt="World Map" class="map-image" />
+
+          <!-- Overlayed customer images -->
+          <img src="assets/images/image on map 1.png" class="customer-img img-1" />
+          <img src="assets/images/image on map 2.png" class="customer-img img-2" />
+          <img src="assets/images/image on map 3.png" class="customer-img img-3" />
+          <img src="assets/images/image on map 4.png" class="customer-img img-4" />
+          <img src="assets/images/image on map 5.png" class="customer-img img-5" />
+          <img src="assets/images/image on map 6.png" class="customer-img img-6" />
+          <img src="assets/images/image on map 7.png" class="customer-img img-7" />
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-left">
+            <div>
+              <img src="assets/images/review image.png" class="user-photo" />
+            </div>
+            <div>
+              <h3>George Stephen</h3>
+
+              <div class="stars">⭐️ ⭐️ ⭐️ ⭐️ ⭐️</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            “I love the quality of the produce! Everything is always fresh and tastes amazing.
+            The prices are competitive, and the weekly deals are fantastic. I save so much on my grocery bills”
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ----------feature banner----------- -->
+
+    <div class="feature-get">
+      <div class="getintouch">
+        <img src="assets/images/getin.PNG">
+      </div>
+      <div class="feature-banner">
+        <div class="feature-item">
+          <div class="icon-circle">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/delivery.png" alt="Free Shipping" />
+          </div>
+          <div class="feature-text">
+            <strong>Free Shipping</strong>
+            <p>For Orders Above 500</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-circle">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/plant-under-sun.png" alt="Fresh Produce" />
+          </div>
+          <div class="feature-text">
+            <strong>Fresh Produce</strong>
+            <p>Guaranteed Product Warranty</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="icon-circle">
+            <img src="https://img.icons8.com/ios-filled/50/4CAF50/shield.png" alt="Safety" />
+          </div>
+          <div class="feature-text">
+            <strong>100% Safety & Security</strong>
+            <p>Your Data is Highly Secured</p>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-    <!-- <div class="deals-products" id="deals-products"></div>
-  </section> -->
+  </div>
+
+  <!-- ----footer---- -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <img src="assets/images/logo.png" alt="Groceries at Doorstep" class="footer-logo" />
+        <p class="footer-desc">
+          Fresh groceries, particularly fruits, vegetables, whole grains, and lean proteins, play a crucial role in
+          nourishing our bodies and promoting overall well-being.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h4>NAVIGATE</h4>
+        <ul>
+          <li><a href="privacypolicy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms & Conditions</a></li>
+          <li><a href="howto-order.html">How to Order</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4>G-STORE</h4>
+        <ul>
+          <li>Reg: T21542GST548</li>
+          <li>TIN: 14578452884</li>
+          <li>Email: groceries.at.doorstep@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyrights 2022© Groceries At Doorstep Ltd
+    </div>
+  </footer>
+
 
   <script src="grocery_products.js"></script>
   <script src="assets/js/product.js"></script>
@@ -950,6 +384,12 @@
 
     // Add item to cart
     function addToCart(productName) {
+      const isLoggedIn = localStorage.getItem("isLoggedIn");
+      if (isLoggedIn !== "true") {
+        alert("Please login first to add items to cart.");
+        window.location.href = "register.html"; // redirect to login/register page
+        return;
+      }
       const cart = JSON.parse(localStorage.getItem("cart")) || [];
       const index = cart.findIndex(item => item.name === productName);
       if (index !== -1) {
@@ -976,9 +416,53 @@
     function goToCart() {
       window.location.href = "cart.html";
     }
+    function goToRegister() {
+      window.location.href = "register.html";
+    }
+
+      window.addEventListener("DOMContentLoaded", function () {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    const registerBtn = document.getElementById("register-btn");
+
+    if (isLoggedIn === "true" && registerBtn) {
+      registerBtn.textContent = "Log out";
+    }
+  });
+
+
+  window.addEventListener("DOMContentLoaded", function () {
+    const isLoggedIn = localStorage.getItem("isLoggedIn");
+    const registerBtn = document.getElementById("register-btn");
+
+    // Set initial button text
+    if (isLoggedIn === "true" && registerBtn) {
+      registerBtn.textContent = "Log Out";
+    } else if (registerBtn) {
+      registerBtn.textContent = "Register Now";
+    }
+
+    // Set click behavior dynamically
+    if (registerBtn) {
+      registerBtn.addEventListener("click", function () {
+        if (localStorage.getItem("isLoggedIn") === "true") {
+          // Log out
+          localStorage.removeItem("isLoggedIn");
+          localStorage.removeItem("currentUser");
+          registerBtn.textContent = "Register Now";
+          alert("Logged out successfully.");
+          window.location.href = "index.html"; // or location.reload();
+        } else {
+          // Redirect to register/login page
+          window.location.href = "register.html"; // update if your file has a different name
+        }
+      });
+    }
+  });
+
+
   </script>
 
-  
+
 </body>
 
 </html>

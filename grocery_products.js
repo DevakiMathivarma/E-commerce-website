@@ -33,9 +33,9 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/featured pro home 1.png",
-      "assets/images/dairy des 1.png",
-      "assets/images/dairy des 2.png"
+      "assets/images/vege cate 6.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -111,8 +111,8 @@ const productList = [
     },
     "images": [
       "assets/images/featured pro home 3.png",
-      "assets/images/products/mangoes_2.jpg",
-      "assets/images/products/mangoes_3.jpg"
+    "assets/images/dairy des 1.png",
+      "assets/images/dairy des 2.png"
     ]
   },
   {
@@ -188,7 +188,7 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/red_chillies_1.jpg",
+      "assets/images/redchilli.PNG",
       "assets/images/products/red_chillies_2.jpg",
       "assets/images/products/red_chillies_3.jpg"
     ]
@@ -226,7 +226,7 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/fresh_eggs_1.jpg",
+      "assets/images/eggs cate.png",
       "assets/images/products/fresh_eggs_2.jpg",
       "assets/images/products/fresh_eggs_3.jpg"
     ]
@@ -264,7 +264,7 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/soya_chunks_1.jpg",
+      "assets/images/soya.PNG",
       "assets/images/products/soya_chunks_2.jpg",
       "assets/images/products/soya_chunks_3.jpg"
     ]
@@ -302,7 +302,7 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/dry_beans_1.jpg",
+      "assets/images/beans.PNG",
       "assets/images/products/dry_beans_2.jpg",
       "assets/images/products/dry_beans_3.jpg"
     ]
@@ -340,10 +340,10 @@ const productList = [
         "humidity": "Maintain moderate humidity levels when storing carrot to prevent spoilage. Breathable containers and dry environments are recommended."
       }
     },
-    "images": [
-      "assets/images/products/carrot_1.jpg",
-      "assets/images/products/carrot_2.jpg",
-      "assets/images/products/carrot_3.jpg"
+     "images": [
+      "assets/images/vege cate 2.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -379,10 +379,10 @@ const productList = [
         "humidity": "Maintain moderate humidity levels when storing garlic to prevent spoilage. Breathable containers and dry environments are recommended."
       }
     },
-    "images": [
-      "assets/images/products/garlic_1.jpg",
-      "assets/images/products/garlic_2.jpg",
-      "assets/images/products/garlic_3.jpg"
+     "images": [
+      "assets/images/vege cate 3.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -419,9 +419,9 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/sweet_corn_1.jpg",
-      "assets/images/products/sweet_corn_2.jpg",
-      "assets/images/products/sweet_corn_3.jpg"
+      "assets/images/vege cate 4.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -458,9 +458,9 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/spinach_1.jpg",
-      "assets/images/products/spinach_2.jpg",
-      "assets/images/products/spinach_3.jpg"
+      "assets/images/vege cate 5.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -497,9 +497,9 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/beans_1.jpg",
-      "assets/images/products/beans_2.jpg",
-      "assets/images/products/beans_3.jpg"
+      "assets/images/vege cate 7.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -536,9 +536,9 @@ const productList = [
       }
     },
     "images": [
-      "assets/images/products/reddish_1.jpg",
-      "assets/images/products/reddish_2.jpg",
-      "assets/images/products/reddish_3.jpg"
+      "assets/images/vege cate 1.png",
+      "assets/images/veg des 1.png",
+      "assets/images/veg des 3.png"
     ]
   },
   {
@@ -2352,7 +2352,7 @@ const productList = [
   ]
 },
 {
-  "name": "Whole Wheat Bread Loaf",
+  "name": "Chocolate Donut",
   "price": 70,
   "rating": 4,
   "quantity": 50,
@@ -2391,7 +2391,7 @@ const productList = [
   ]
 },
 {
-  "name": "Belgian Waffles with Mixed Berries",
+  "name": "Coconut Macaroons",
   "price": 160,
   "rating": 5,
   "quantity": 28,
@@ -2430,7 +2430,7 @@ const productList = [
   ]
 },
   {
-  "name": "Assorted Fruit Mini Tarts",
+  "name": "Savory Tarts",
   "price": 180,
   "rating": 5,
   "quantity": 36,
@@ -2468,6 +2468,1365 @@ const productList = [
    "assets/images/bakery des 3.png"
   ]
 },
+{
+  "name": " Muffins",
+  "price": 150,
+  "rating": 5,
+  "quantity": 30,
+  "category": "Bakery",
+  "description": "This rich, flaky butter croissant is artfully drizzled with smooth dark chocolate for a sweet and indulgent finish. Layers of airy pastry deliver a satisfying crunch and soft interior with every bite. The chocolate enhances the buttery richness without overwhelming it. Ideal for breakfast, snacks, or pairing with coffee. A Parisian-style delight crafted to perfection.",
+  "details": {
+    "appearance": {
+      "color": "Golden brown crust with a glossy finish and visible chocolate drizzle lines. The layers are well-defined, showing even lamination. Dark chocolate adds contrast and a gourmet touch on top. The interior has a warm yellow tone from butter and eggs. No pale spots or burned tips present.",
+      "shape": "Traditional crescent-shaped pastry with curved tips and a slightly tapered body. Each croissant is medium-sized and puffs up with a rounded center. The chocolate drizzle forms lines or zigzags across the top. Even rolling ensures symmetry and clean edges. Lightweight yet substantial in appearance.",
+      "seeds": "No seeds are included in this item. It consists solely of laminated dough and melted chocolate. Occasionally, it may feature a dusting of powdered sugar but no grains or seed-based toppings. Completely seed-free, making it ideal for those avoiding crunchy inclusions. Purely smooth and pastry-focused.",
+      "freshness": "Baked fresh daily using premium butter and high-quality flour. The croissant maintains its crispness for hours post-baking. Chocolate remains glossy and slightly soft, not hardened. Best consumed on the same day for full flakiness. Freshly baked aroma and delicate crunch confirm quality."
+    },
+    "tasteAndAroma": {
+      "flavor": "A perfect balance of rich, creamy butter and slightly bitter-sweet chocolate. The pastry delivers a subtle saltiness that enhances both components. Each bite melts smoothly in the mouth with bursts of chocolate and soft dough. Not overly sugary, allowing the ingredients to shine. A layered, indulgent flavor profile.",
+      "aroma": "Warm, buttery scent fills the air with hints of vanilla and roasted flour. The chocolate adds a deep cocoa aroma that complements the base. Pleasant and inviting without artificial notes. Intensifies when heated slightly or paired with warm drinks. Smells as delightful as it tastes."
+    },
+    "nutrition": {
+      "vitaminC": "Croissants contain no natural vitamin C. This item focuses on flavor and indulgence rather than micronutrients. Pairing with fresh fruit or citrus-based drinks can help balance a meal. Not recommended for those seeking vitamin-rich options. A purely bakery-focused treat.",
+      "fiber": "Contains minimal fiber as made from refined flour and butter. Fiber content can be slightly improved by pairing with fruit or whole grains. Not a source of dietary fiber. Best enjoyed as part of a mixed meal if fiber intake is a concern. Smooth texture without fibrous ingredients.",
+      "otherNutrients": "Provides quick energy through carbohydrates and fats. Contains small amounts of calcium and iron from enriched flour. Butter contributes saturated fat and some fat-soluble vitamins. Chocolate adds minor antioxidants. Overall, a treat with moderate energy but low in essential nutrients.",
+      "calories": "Each croissant contains about 250–300 kcal, depending on the size and amount of chocolate. The butter content makes it calorie-dense. Suitable as a single indulgent snack or breakfast item. Caloric value increases if filled or served with spreads. Not intended for daily consumption in large quantities."
+    },
+    "uses": {
+      "fresh": "Best enjoyed fresh and warm with coffee or tea. Can be lightly toasted for enhanced crispness. Pairs well with milk or fruit preserves. Served as part of continental breakfast or brunch platters. Also enjoyed as a grab-and-go snack or café offering.",
+      "culinary": "Ideal for bakery shelves, buffets, or gourmet café menus. Can be used in sweet brunch sandwiches or cut in half and filled with cream. Popular in European-style breakfast spreads. Can be reheated for quick service. A great pastry to showcase in gift boxes or dessert trays."
+    },
+    "storage": {
+      "refrigeration": "Store at room temperature in a sealed bag or box for up to 2 days. Do not refrigerate as it makes the pastry soggy. If needed, freeze for longer shelf life and reheat in oven. Keep away from direct sunlight. Chocolate may melt if exposed to high heat.",
+      "humidity": "Keep in low-humidity environments to retain flakiness. Excess humidity will soften layers and ruin texture. Store in parchment or wax paper to avoid moisture buildup. Do not place near fruits or condensation-producing items. Ensure ventilation while storing on display trays."
+    }
+  },
+     "images": [
+   "assets/images/bakery cate 7.png",
+    "assets/images/bakery des 2.png",
+   "assets/images/bakery des 3.png"
+  ]
+},
+{
+  "name": "Chocolate-Dipped Biscuits",
+  "price": 120,
+  "rating": 4,
+  "quantity": 50,
+  "category": "Bakery",
+  "description": "Crunchy tea biscuits partially dipped in rich, velvety chocolate for the perfect bite of crisp and smooth. These classic snacks strike a balance between simplicity and indulgence, making them ideal for pairing with coffee, milk, or tea. Each biscuit delivers a satisfying snap and a gentle sweetness. The chocolate coating adds a luscious contrast without overwhelming the biscuit flavor. A timeless bakery treat that suits any occasion.",
+  "details": {
+    "appearance": {
+      "color": "Biscuit base is light golden brown, with one end or side dipped in glossy dark or milk chocolate. Surface is smooth, with occasional ridges depending on shape. The chocolate has a deep brown sheen and forms a clean boundary. Slight powdering or flour dust may be seen on the plain side. Overall look is tidy, elegant, and uniform.",
+      "shape": "Usually rectangular, oval, or round, with a flat base and defined edges. Each biscuit is around 2–3 inches in length or diameter. Chocolate-dipped end creates a two-tone visual effect. Edges may have a ridged or scalloped pattern depending on mold. Size is ideal for single-bite or two-bite consumption.",
+      "seeds": "No seeds or inclusions are part of these biscuits. Surface is smooth with no added grains or toppings. Texture is even and uncluttered for a crisp bite. Completely seed-free to maintain a classic profile. Focused on biscuit dough and chocolate only.",
+      "freshness": "Prepared in small batches for maximum crunch and snap. Chocolate remains firm at room temperature and does not melt easily. Biscuits stay crisp when stored properly in dry containers. No sogginess or soft spots should be present. Fresh aroma and firm texture indicate optimal freshness."
+    },
+    "tasteAndAroma": {
+      "flavor": "A blend of buttery, lightly sweet biscuit and smooth chocolate with a subtle bitter edge. The base flavor is clean and mild, allowing the chocolate to stand out. Texture contrast enhances the taste experience. Not overly sweet, making it suitable for mature palates. Delivers a nostalgic and comforting flavor.",
+      "aroma": "Mild biscuit scent with notes of baked flour and butter, complemented by a stronger cocoa aroma. The chocolate’s fragrance becomes more pronounced when warm. Together, they create a comforting bakery-like smell. No artificial or overly sweet aroma present. Best enjoyed fresh for full olfactory effect."
+    },
+    "nutrition": {
+      "vitaminC": "These biscuits do not contain vitamin C. Designed for indulgence rather than nutritional value. Can be paired with fruit or citrus tea to compensate. Enjoy as part of a balanced snack. Not intended as a source of vitamins.",
+      "fiber": "Minimal fiber as biscuits are made with refined flour. Low fiber content makes them a light-texture snack. Best served with fiber-rich accompaniments like fruit. Not suitable for fiber-focused diets. Smooth and uniform in texture with no roughness.",
+      "otherNutrients": "Offers fast energy from carbs and some fats from butter and chocolate. Small amounts of iron or calcium may be present if enriched flour is used. Not a significant protein or micronutrient source. Great for a light treat or tea-time companion. Chocolate provides minor antioxidants.",
+      "calories": "Approximately 60–80 kcal per biscuit depending on size and chocolate amount. Light enough for portion-controlled snacking. Can be enjoyed with other light bakery items or drinks. Moderate calorie density for an indulgent bite. Easy to track in calorie-conscious diets."
+    },
+    "uses": {
+      "fresh": "Enjoy straight from the package with a cup of tea, coffee, or milk. Pairs perfectly with warm beverages for dipping. Great for tea parties, snack boxes, or light dessert trays. Also works as a simple gift or café offering. A reliable crowd-pleaser with broad appeal.",
+      "culinary": "Popular in biscuit assortments and snack packs. Can be used in dessert platters, high-tea services, or sweet grazing boards. May be crushed and used as a base for cheesecakes or layered desserts. Works well in corporate snack hampers or kids' party trays. Often packed in bakery gift tins."
+    },
+    "storage": {
+      "refrigeration": "No refrigeration needed — store in airtight container at room temperature. Keep away from heat to prevent chocolate melting. If environment is warm, a cool cupboard works best. Do not refrigerate unless required for temperature control. Avoid exposure to direct sunlight or warm appliances.",
+      "humidity": "Store in dry conditions to maintain crunch and prevent chocolate bloom. Excess humidity can soften biscuit texture and dull the chocolate. Use silica packs if storing in boxes for long periods. Keep container sealed tightly. Avoid storing near water-prone foods like fruits or bread."
+    }
+  },
+      "images": [
+   "assets/images/bakery cate 8.png",
+    "assets/images/bakery des 2.png",
+   "assets/images/bakery des 3.png"
+  ]
+},
+{
+  "name": "Glass Jar Grain Set",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Pantry Staples",
+  "description": "A beautifully organized set of assorted pantry staples stored in reusable glass jars. Includes lentils, grains, and spices kept airtight for freshness and clarity. Ideal for minimalist, zero-waste kitchens or aesthetic pantry makeovers. Offers easy visibility and access to essentials while maintaining neatness. Both functional and decorative for conscious homemakers.",
+  "details": {
+    "appearance": {
+      "color": "Contents range from beige and amber to dark brown and golden hues, reflecting a variety of grains and pulses. Jars are transparent with metallic or bamboo lids. The grains inside are clean, dry, and vibrant. Set creates a uniform look across any kitchen shelf. Labels may be handwritten or minimalistic.",
+      "shape": "Jars are cylindrical and medium-sized, generally 6–10 inches tall. Bases are flat for stable stacking or lining up on shelves. Some jars are short and wide, suitable for bulkier items. The shapes are functional for scooping and pouring. Visually cohesive design for kitchen aesthetics.",
+      "seeds": "Includes seed-based pantry items like lentils, chickpeas, or quinoa. All are dry, whole, and clean — no cracked or broken seeds. No husk fragments or dust is visible. High-quality contents with uniform sizing. Not all jars contain seeds, but the set emphasizes dry pantry staples.",
+      "freshness": "Grains are stored in airtight jars to prevent moisture entry and prolong shelf life. Contents appear dry, crisp, and free of pests or clumping. Best used within 6–12 months for peak texture and flavor. Ideal for long-term storage without degradation. Freshness is evident from the clarity and cleanliness of the jars.",
+    },
+    "tasteAndAroma": {
+      "flavor": "Flavor varies by grain — chickpeas offer nuttiness, lentils provide earthy notes, and oats bring mild sweetness. Each item holds its native flavor due to dryness and purity. Not pre-flavored or salted. Designed for cooking use with seasonings. Best when used in traditional home-cooked meals.",
+      "aroma": "Subtle earthy or nutty aroma depending on the grain. No mustiness or off odors should be present. Well-maintained jars retain clean, natural smells. Aromas intensify slightly when opened or washed. No artificial scents or packaging chemicals involved."
+    },
+    "nutrition": {
+      "vitaminC": "Dry grains contain minimal to no vitamin C. For vitamin C, pair with fresh vegetables or citrus. These are energy staples but not vitamin-rich. Meal planning should compensate with fruits. Use in soups or curries with tomato for enrichment.",
+      "fiber": "High in dietary fiber, especially whole pulses like lentils and chickpeas. Supports digestive health and helps with satiety. Best suited for fiber-boosted meals. A vital pantry choice for vegetarians and health enthusiasts. Retains fiber content when cooked properly.",
+      "otherNutrients": "Rich in complex carbs, plant protein, and B vitamins. Provides essential minerals like magnesium, iron, and zinc. Low in fat and sugar. Can be part of balanced daily nutrition. Great for diabetic- or heart-conscious diets.",
+      "calories": "Varies by item; approx. 100–130 kcal per 100g when dry. Moderate calorie density with high nutritional payoff. Cooking increases volume and lowers calorie-per-serving. Helps in calorie-conscious meal planning. Low-glycemic options for stable energy."
+    },
+    "uses": {
+      "fresh": "Used dry — must be soaked or boiled before consumption. Add to soups, curries, or salads for texture and bulk. Ideal for daily staples like dal, khichdi, or upma. Easily seasoned for global cuisine. A foundational pantry element for cooking variety.",
+      "culinary": "Perfect for Indian, Mediterranean, and health-conscious dishes. Can be ground into flour, pressure-cooked, or sprouted. Ideal for bulk cooking and meal prepping. Add to stews, chilis, or grain bowls. Often used in lentil burgers or patties too."
+    },
+    "storage": {
+      "refrigeration": "No refrigeration needed — store at room temperature in a cool, dark place. Keep jars sealed tight to block moisture. Pantry or upper cabinets preferred. Avoid exposure to direct heat. Proper sealing ensures long shelf life.",
+      "humidity": "Keep in a dry area; humidity may cause clumping or spoilage. Avoid wet scooping tools. Use desiccant packs if in high-humidity zones. Wipe jar openings regularly. Ensure shelves are well-ventilated."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 1.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Oats Jar",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Pantry Staples",
+  "description": "A neat and minimalistic glass jar filled with rolled oats, perfect for healthy breakfasts and wholesome baking. The transparent container showcases the uniformity of the light beige oat flakes inside. Great for portion control and easy scooping during morning routines. Adds aesthetic value to open kitchen shelving while keeping contents dry and clean. A pantry essential for health-focused lifestyles.",
+  "details": {
+    "appearance": {
+      "color": "The oats are pale beige to soft cream in color, appearing dry and slightly flaky. Jar is transparent, often topped with a natural bamboo or metallic lid. No dust or broken residue visible inside. Color is uniform throughout, indicating purity. Clean and calming look suited to organized kitchens.",
+      "shape": "Oat flakes are flat, thin, and slightly curved with a layered appearance. The jar is cylindrical, around 8–10 inches tall, built for shelf or countertop display. Flakes fill the container loosely for easy scooping. The consistent flake shape prevents clumping or dense packing. Visually soft and inviting texture.",
+      "seeds": "No seeds are present in standard rolled oats. These are pure, processed oat flakes with no added grains, fruits, or seeds. No signs of chia, flax, or any multi-seed blend. Texture is clean and seed-free, suited to simple or customized recipes. Not mixed or flavored — entirely plain oats.",
+      "freshness": "Stored in airtight conditions to retain dryness and preserve mild natural scent. Fresh oats remain free of clumps or dampness. Should be used within 3–6 months after opening. Dry and crisp when fresh, with no signs of spoilage or discoloration. Packaging maintains full integrity of product."
+    },
+    "tasteAndAroma": {
+      "flavor": "Oats have a naturally mild, slightly nutty flavor with a soft chew when cooked. Perfect as a neutral base for both sweet and savory additions. Clean and light on the palate, making them versatile for various meals. Flavors are subtle, meant to absorb spices or milk. Can be toasted for more depth.",
+      "aroma": "Very faint aroma, resembling raw grain or dry cereal. Smells fresh and clean with no artificial scent. When cooked, gives off a comforting, porridge-like warmth. No stale or musty notes should be present. Accepts infused aromas like cinnamon, honey, or fruit easily."
+    },
+    "nutrition": {
+      "vitaminC": "Oats do not naturally contain vitamin C. Combine with berries, citrus, or fresh juice to create a balanced meal. Vitamin C must be supplemented through other sources. Works great in fruit-topped breakfast bowls. Designed to pair with nutrient-rich sides.",
+      "fiber": "Rich in soluble fiber, especially beta-glucan, supporting heart and gut health. Helps regulate digestion and blood sugar levels. One of the most fiber-dense pantry staples. Ideal for daily breakfasts and weight management. Adds fullness without heaviness.",
+      "otherNutrients": "Contains iron, B vitamins, magnesium, and a small amount of protein. Offers complex carbs for lasting energy. Low in fat and sugar, making it a clean grain. Excellent for people with dietary restrictions or low-GI needs. Supports overall metabolic wellness.",
+      "calories": "Approx. 370 kcal per 100g (dry). High in energy but balanced when portioned properly. A 40g serving provides sustained fullness and slow-release carbs. Pairs well with low-calorie toppings. Ideal for calorie-conscious meal prepping."
+    },
+    "uses": {
+      "fresh": "Best enjoyed as oatmeal, overnight oats, or muesli. Soak in milk or water for 4–12 hours for a creamy breakfast. Can be cooked fresh with fruits, nuts, and spices. Works well as a smoothie thickener. Add yogurt or honey for a nourishing meal.",
+      "culinary": "Used in baking cookies, muffins, granola bars, or bread. Great for thickening soups or veggie patties. Can be ground into oat flour for gluten-free recipes. Mix into batter or sprinkle on desserts for crunch. Essential in plant-based meal planning."
+    },
+    "storage": {
+      "refrigeration": "Does not require refrigeration if kept sealed in a cool, dry space. Use an airtight jar or original resealable pouch. Avoid exposure to kitchen steam or heat. If climate is humid, refrigerate in airtight containers. Label with use-by date after opening.",
+      "humidity": "Store in a dry place to prevent moisture absorption and clumping. Exposure to humidity can spoil oats quickly. Keep lid tightly sealed and avoid storing near sinks. Use silica pouches if jar is used in open kitchen. Consistency depends on low-humidity preservation."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 2.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Mixed Cereals in Jars",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Pantry Staples",
+  "description": "An assorted mix of whole grains and cereals neatly stored in transparent jars, ideal for breakfast and healthy snacking. Each jar contains a vibrant variety of textures and colors — from puffed rice to flakes and granules. Great for visual appeal in kitchen shelving and convenient, organized storage. Offers the flexibility to mix and match with milk, yogurt, or fruits. A pantry essential for anyone looking to eat clean and keep things tidy.",
+  "details": {
+    "appearance": {
+      "color": "The cereals display a mix of beige, yellow, light brown, and golden tones, offering a naturally colorful arrangement. Each jar highlights its unique grain — puffed rice, corn flakes, and wheat crisps. The clear containers enhance visibility and create a rustic kitchen vibe. Contents are dry and well-separated, showing freshness. No dust or discolored flakes should be visible.",
+      "shape": "Cereal shapes vary — from flat flakes and tiny spheres to puffed grains and small crisps. Each element has a distinct form and size, offering a textured appearance. The jars are cylindrical and medium-sized with tight lids. Easy to stack, scoop, or pour. Designed for practical use and visual balance.",
+      "seeds": "Some jars may contain small grains or seed-like cereal elements (e.g., millet or quinoa puffs), but these are part of the mix. No external seeds added as toppings. Contents are smooth, natural, and seed-like only in appearance. Entirely plant-based cereal pieces. No whole nuts or chia-style seeds visible.",
+      "freshness": "The mix is packaged airtight to preserve the crispness of every flake and puff. Fresh cereals are crunchy to the bite and free of moisture. Should not emit stale or oily odors. Properly sealed jars ensure long shelf life. Freshness is maintained through clean, dry storage.",
+    },
+    "tasteAndAroma": {
+      "flavor": "Each cereal type has a light, natural flavor — from mildly sweet to earthy. The combination provides a satisfying crunch and contrast with milk or yogurt. Unflavored base grains make it easy to customize taste with fruit or honey. No artificial aftertaste or excess sweetness. Clean, whole-grain flavor overall.",
+      "aroma": "A gentle, toasty grain scent with hints of corn or wheat. Some elements may carry a faint nutty aroma depending on the mix. Smell is fresh and pleasant, like a grain bin at a health store. No strong sugar or spice scents present. Best enjoyed fresh for full aromatic effect."
+    },
+    "nutrition": {
+      "vitaminC": "The cereals themselves do not contain vitamin C unless fortified. Pairing with citrus fruits or juice enhances the overall meal. Meant to serve as a base rather than a vitamin-rich product. Great for combining with berries or kiwi. Vitamin C must be supplemented separately.",
+      "fiber": "Moderate to high fiber content depending on cereal type — whole grains offer soluble and insoluble fiber. Supports digestion and satiety. Ideal for heart-healthy breakfasts or weight management. Should be part of a balanced diet. Helps maintain energy levels through steady absorption.",
+      "otherNutrients": "Provides carbohydrates for quick energy, with some mixes containing added iron, B-vitamins, or minerals. Low fat content makes it light and suitable for daily use. May offer some protein if fortified or multi-grain. Not a complete meal but an excellent base. Complements most dietary goals.",
+      "calories": "Roughly 110–140 kcal per 30g serving depending on mix density. Easy to portion and customize based on caloric needs. Great for breakfast or light snacks. Calorie range supports active and low-intensity routines. Low-calorie when unflavored and served plain."
+    },
+    "uses": {
+      "fresh": "Best served with milk, plant-based alternatives, or yogurt. Can be mixed with dried fruit, nuts, or honey for extra texture. Works well as a dry snack for kids or quick breakfast fix. Pour directly from the jar into bowls for hassle-free prep. Also great as a trail mix base.",
+      "culinary": "Used in breakfast bowls, parfaits, or granola recipes. Can be crushed into baking crusts or layered into bars. Adds crunch to smoothie bowls or salad toppings. Works in DIY cereal mixes and snack jars. Great addition to children's lunch boxes and bento-style meals."
+    },
+    "storage": {
+      "refrigeration": "Does not require refrigeration — store in a cool, dry pantry. Keep lids tightly closed after use to maintain crunch. Do not refrigerate unless room is extremely humid. Reseal promptly after each serving. Label with date if decanted from larger bags.",
+      "humidity": "Store in low-humidity areas to avoid clumping or sogginess. Avoid exposure to steam, water, or condensation. Use airtight jars or pouches with desiccants if needed. Moisture ruins crispness and causes early spoilage. Always use dry scoops or hands."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 3.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Chickpeas in Jar",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Pantry Staples",
+  "description": "Dried chickpeas neatly packed in a clear storage jar, offering a clean, organized, and appealing pantry essential. These protein-rich legumes are a staple in many cuisines, prized for their nutty flavor and versatility. Great for soups, salads, hummus, or roasted snacks, they deliver both nutrition and taste. Long shelf life and bulk storage make them a smart addition to any kitchen. A wholesome, earthy base for countless homemade dishes.",
+  "details": {
+    "appearance": {
+      "color": "Chickpeas display a uniform pale beige to golden tan color with a slightly matte surface. Each piece is round, plump, and dry, with occasional ridges from natural growth. The jar gives a clear view of the intact, unbroken legumes. No dark spots, discoloration, or shriveled skins should be present. Visuals reflect high-grade, well-sorted quality.",
+      "shape": "Each chickpea is round and slightly lumpy, about the size of a small marble. They have a firm, dense texture that softens when cooked. The dry form is compact and easy to measure. Jars used for storage are typically tall and cylindrical for stacking. The uniformity makes scooping and rinsing convenient.",
+      "seeds": "Chickpeas themselves are seeds — edible legumes from the plant Cicer arietinum. No additional seeds or inclusions are present in the jar. The contents are 100% chickpeas with no foreign matter. These plant-based seeds are clean and ready for soaking or cooking. Grain-free and unblended with other legumes.",
+      "freshness": "The chickpeas are dry and firm, stored in airtight jars to ensure long shelf stability. They should not be soft, split, or wrinkled — signs of age or moisture exposure. When properly stored, they retain texture for months. No smell or dust should be present. The firmness indicates excellent preservation."
+    },
+    "tasteAndAroma": {
+      "flavor": "When cooked, chickpeas have a slightly nutty, earthy taste with a buttery mouthfeel. Their neutral profile makes them ideal for absorbing spices, oils, and sauces. Dry form has no flavor but gains depth during preparation. The taste is clean and satisfying, perfect for savory or spiced recipes. Balanced enough for both traditional and modern dishes.",
+      "aroma": "Raw chickpeas have little to no aroma when dry. Once soaked or cooked, they release a mild, earthy, legume scent. The smell becomes richer when roasted or seasoned. No sour or off smells should be present in the dry state. Freshness is indicated by a clean, neutral scent."
+    },
+    "nutrition": {
+      "vitaminC": "Chickpeas do not naturally contain vitamin C. For balanced nutrition, pair with lemon, bell peppers, or tomatoes. They serve as a great protein and fiber base but lack certain micronutrients. Best enjoyed with veggies or citrus-based sauces. Not a standalone source of vitamins.",
+      "fiber": "High in dietary fiber, promoting good digestion and satiety. Especially rich in insoluble fiber that helps regulate bowel movement. Makes them ideal for weight management and heart health. A wholesome ingredient for plant-based or diabetic diets. Fiber remains intact even when roasted.",
+      "otherNutrients": "Rich in plant protein, iron, folate, and manganese. Supports energy metabolism, immune function, and muscle repair. Low in fat and cholesterol-free, they’re excellent for vegetarian and vegan diets. Helps manage blood sugar due to complex carbs. Also offers phosphorus and zinc in moderate amounts.",
+      "calories": "Approximately 160–180 kcal per 100g dry. High in energy density, especially when paired with oil or sauces. Suitable for main meals or hearty sides. Provides long-lasting fullness without heaviness. Balanced for active lifestyles and protein needs."
+    },
+    "uses": {
+      "fresh": "Soak overnight and boil until tender for salads, curries, or hummus. Can also be sprouted for added nutritional value. Roast with spices for crunchy snacks or blend for dips. Works well in grain bowls, veggie patties, and stews. A flexible base for both Eastern and Western dishes.",
+      "culinary": "Essential in Middle Eastern, Indian, and Mediterranean cuisines. Used in dishes like chana masala, falafel, and pasta salads. Can be ground into flour (besan) for batters or baked goods. Adds texture to soups and thickness to broths. Easily integrated into casseroles and rice dishes."
+    },
+    "storage": {
+      "refrigeration": "No refrigeration needed for the dry form. Store in a sealed jar in a cool, dark pantry. Once cooked, refrigerate and consume within 3–5 days. Avoid humidity to maintain texture. Always label if transferring from larger sacks.",
+      "humidity": "Keep in low-moisture conditions to prevent spoilage or sprouting. Exposure to humidity may cause mold or softening. Store with desiccants in humid climates. Ensure jars are sealed tight and kept away from water sources. Use dry scoops to prevent moisture contamination."
+    }
+  },
+   "images": [
+    "assets/images/pantry cate 4.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Wrapped Grains",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Pantry Staples",
+  "description": "A rustic assortment of grains like lentils, millets, and rice, neatly portioned and wrapped in eco-friendly cloth pouches. These thoughtfully packed grains highlight sustainability while offering essential pantry staples. Ideal for daily cooking, each variety provides a different texture, flavor, and nutritional benefit. The handmade wrapping style gives them a market-fresh charm. A wholesome visual and culinary addition to any kitchen shelf.",
+  "details": {
+    "appearance": {
+      "color": "Contents vary in shades of beige, cream, gold, and light brown depending on grain type. The pouches are wrapped in soft, pastel-hued cloth — lavender, green, and blue tones. Grains appear clean and uniform through visible openings. Some textures are rough like millet, others smooth like lentils. The wrapping lends a cozy, artisanal presentation.",
+      "shape": "The grains themselves are small and oval, rounded or slightly flattened, depending on variety. Each cloth pouch is tied securely and shaped like a small sack. Sizes vary slightly but are hand-sized and easily stackable. The bundles fit neatly into pantry baskets or display crates. Compact and convenient for single or multi-use.",
+      "seeds": "Grains are essentially seeds — edible and rich in nutrients. No added seeds or foreign particles are visible. Each pouch contains pure, unblended grains of one type. Free of husks or pebbles, ensuring cleanliness. Not to be confused with spice seeds or legumes.",
+      "freshness": "Dry, odor-free, and free-flowing, the grains signal proper drying and handling. Stored in breathable natural fabric to maintain air circulation. Packaging prevents condensation and mold. No dampness, clumping, or unusual smell should be present. Freshness is visible through clarity and lack of broken pieces."
+    },
+    "tasteAndAroma": {
+      "flavor": "Raw grains are neutral in taste, but each type offers a unique profile when cooked. Rice may be soft and nutty, millet earthy and hearty, lentils slightly peppery. Absorb flavors well and serve as a base in both sweet and savory dishes. Minimal bitterness — perfect for versatile culinary use.",
+      "aroma": "Mild natural aroma with earthy, slightly grassy notes. Wrapped in cloth, they retain their natural scent without absorbing outside odors. Cooked, they release warm, wholesome steam aromas. Each variety, like basmati or red lentils, has its signature scent. Overall, clean and fresh-smelling."
+    },
+    "nutrition": {
+      "vitaminC": "Grains generally do not contain vitamin C. Best paired with fresh vegetables, fruits, or lemon-based dressings to balance nutrition. They focus more on complex carbs, protein, and minerals. Not intended as a vitamin source. Ideal in combination with colorful plant-based ingredients.",
+      "fiber": "High in dietary fiber depending on grain type — especially millets and lentils. Supports digestion, promotes fullness, and aids heart health. Fiber remains intact when cooked properly. Helps maintain stable blood sugar levels. A smart addition to high-fiber meal plans.",
+      "otherNutrients": "Packed with complex carbohydrates, B vitamins, iron, magnesium, and plant protein. Some types like millets and brown rice are gluten-free. Provides slow-release energy and sustains energy levels throughout the day. Supports metabolic and immune health. Essential for vegetarian and vegan diets.",
+      "calories": "Approximately 350–380 kcal per 100g depending on the grain. Energy-dense but nutrient-rich. Balanced when portioned correctly with vegetables or legumes. Works well in calorie-controlled meals when boiled or steamed. Suitable for both active and sedentary lifestyles."
+    },
+    "uses": {
+      "fresh": "Rinse and cook directly in water or broth. Suitable for boiling, steaming, or pressure cooking. Can be used in khichdi, pulao, porridge, or buddha bowls. Combine with lentils or vegetables for complete meals. Easy to prep for weekly meal planning.",
+      "culinary": "Ideal for Indian, Mediterranean, and macrobiotic cuisines. Used in soups, stews, baked grain loaves, and risottos. Makes excellent grain salads, energy bars, or fillings for wraps. Works well in gluten-free baking and pancake mixes. Often toasted before use to enhance aroma."
+    },
+    "storage": {
+      "refrigeration": "Store in a cool, dry pantry in the original cloth pouches or transfer to airtight jars. No refrigeration needed unless pre-cooked. Once cooked, refrigerate within 2 hours and consume within 3–5 days. Avoid leaving in direct sunlight. Label grains if stored unwrapped.",
+      "humidity": "Keep in low-humidity spaces to prevent clumping or mold. Cloth wrapping helps absorb moisture but ensure they're stored in a dry cupboard. Avoid storing next to damp produce or open water containers. Place in mesh baskets or drawers for breathability. Use moisture absorbers for longer shelf life."
+    }
+  },
+   "images": [
+    "assets/images/pantry cate 5.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Red Chili Powder",
+  "price": 65,
+  "rating": 5,
+  "quantity": 60,
+  "category": "Pantry Staples",
+  "description": "Finely ground red chili powder that adds instant heat, color, and depth to any dish. Sourced from sun-dried chilies, it brings a vibrant red hue and bold aroma to curries, snacks, and marinades. Perfect for enhancing both taste and presentation. Whether you need a subtle kick or fiery spice, it can be adjusted to suit all heat levels. A staple spice that defines many regional cuisines across the world.",
+  "details": {
+    "appearance": {
+      "color": "Deep red to crimson hue with a consistent, fine powder texture. Slight natural oil sheen may be visible on surface. The pigment is rich and uniform, with no discoloration or clumping. Free of impurities, husks, or stem pieces. Eye-catching and ideal for vibrant recipes.",
+      "shape": "Finely milled with no large granules or uneven particles. Powder is light and flowy, easily spooned or sprinkled. Grinds evenly for smooth integration into sauces and pastes. Fits standard spice jars and sachets. Sifted for maximum smoothness and even dispersal.",
+      "seeds": "No visible seeds included — seeds are typically removed prior to grinding. Pure pulp powder ensures stronger flavor and consistent texture. No gritty or coarse components present. Designed for smooth culinary use. Seedless finish supports professional-grade cooking.",
+      "freshness": "Made from freshly dried, high-oil-content red chilies, ground and packed quickly. Strong aroma and color indicate potency and freshness. Powder remains loose and dry when stored properly. No mustiness, discoloration, or stickiness should be present. Best used within 6–12 months for peak strength."
+    },
+    "tasteAndAroma": {
+      "flavor": "Spicy and bold, with an undertone of smokiness and bitterness depending on chili type. Offers immediate heat on the tongue, followed by a lingering warmth. Adds depth without overshadowing base flavors. Small amounts go a long way in seasoning. Elevates any savory dish from mild to fiery.",
+      "aroma": "Pungent and earthy scent with sharp peppery notes. Evokes warmth and rustic spice from the moment the jar is opened. Strong but not overwhelming when used sparingly. Often triggers appetite due to its potent fragrance. Best preserved in airtight packaging."
+    },
+    "nutrition": {
+      "vitaminC": "Rich in vitamin C, especially when made from fresh, vibrant red chilies. Heat may reduce some vitamin content during cooking. Still contributes to immunity and skin health. Adds trace amounts of antioxidant support to dishes. A spicy yet nutrient-dense addition.",
+      "fiber": "Contains minor amounts of dietary fiber due to chili skin and pulp. Not a major fiber source, but helps digestion when used in meals. Can slightly enhance roughage in spice blends. Works well with lentils, beans, and vegetables. Smooth texture doesn’t feel fibrous.",
+      "otherNutrients": "Packed with capsaicin, which supports metabolism and heart health. Contains vitamin A, potassium, and antioxidants. Natural anti-inflammatory properties. Helps clear sinuses and promote better circulation. Nutritionally modest, but impactful in small doses.",
+      "calories": "Very low calorie — about 6–8 kcal per teaspoon. Adds flavor without contributing to caloric load. Ideal for diet-conscious cooking. Offers rich taste with minimal energy content. Supports flavorful yet light meals."
+    },
+    "uses": {
+      "fresh": "Sprinkle directly onto freshly cooked dishes for a final flavor kick. Can be mixed with lemon juice or oil for instant seasoning. Add into hot oil to release color and aroma before adding other ingredients. Use sparingly until desired spice level is reached. Great in chutneys, dips, and dry rubs.",
+      "culinary": "A backbone spice in Indian, Mexican, Thai, and Mediterranean cuisines. Used in curries, stews, sauces, and barbecue rubs. Adds depth to tomato-based gravies and bean dishes. Combines well with turmeric, cumin, and garlic powder. Also used in pickling and spice blends like garam masala."
+    },
+    "storage": {
+      "refrigeration": "No refrigeration required — store in a cool, dry cabinet. Airtight jars or resealable pouches protect aroma and color. Avoid contact with moist utensils or hands. Keep away from direct light to prevent fading. Do not store near steaming appliances.",
+      "humidity": "Must be kept in low-humidity conditions to prevent clumping. Moisture can lead to mold or spoilage over time. Use silica packs if storing in bulk. Transfer to smaller containers once opened. Ensure spice lids are always tightly closed after use."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 6.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Preserved Cherries",
+  "price": 180,
+  "rating": 4,
+  "quantity": 35,
+  "category": "Pantry Staples",
+  "description": "Lusciously sweet preserved cherries soaked in syrup, perfect for desserts, cocktails, and festive bakes. These jewel-toned fruits add a rich burst of flavor and visual charm to any recipe. Firm to the bite yet tender inside, they balance texture and sweetness beautifully. Ideal for garnishing cakes, topping ice creams, or blending into sauces. A pantry essential for both home bakers and gourmet creators.",
+  "details": {
+    "appearance": {
+      "color": "Bright red to deep maroon, depending on preservation style. Glossy, translucent surface thanks to syrup coating. Uniform size with plump, rounded shape. No bruises or discoloration should appear. Color remains vivid even after storage.",
+      "shape": "Typically round and slightly flattened at the top, with a smooth outer skin. Most are pitted for ease of use, though some varieties retain the stone. Each cherry is bite-sized and easy to skewer or spoon. Maintains structure when removed from jar. Consistent sizing aids in presentation.",
+      "seeds": "Generally seedless, but a few may contain pits depending on processing. Most commercial varieties are pitted for convenience. Seed-free versions are preferred for baking and drinks. Packaging usually notes presence or absence of seeds. Check before blending or serving to kids.",
+      "freshness": "Preserved in sugar syrup or juice to retain flavor and texture for months. Cherries remain firm, not mushy, if stored properly. Should emit a sweet fruity scent without fermentation. Best consumed before the listed expiration for ideal taste. Refrigerate after opening to maintain integrity."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet, juicy, and slightly tart with a hint of almond or vanilla depending on syrup type. Not as sharp as fresh cherries, but deeper and more concentrated in flavor. Complements both dairy and chocolate-based desserts. Pleasantly mellow yet impactful. Tastes indulgent without overpowering other ingredients.",
+      "aroma": "Strong fruity aroma with sugary overtones. Some may carry subtle vanilla or cherry liqueur notes. Very fragrant when jar is opened or cherries are warmed. Smell intensifies with cooking or baking. Enhances sensory appeal of plated desserts and beverages."
+    },
+    "nutrition": {
+      "vitaminC": "Lower in vitamin C than fresh cherries due to processing. Some varieties may retain trace amounts. Not a primary source of this nutrient. Can be paired with citrus fruits for a vitamin boost. Enjoyed mainly for taste and decoration rather than nutrition.",
+      "fiber": "Minimal fiber content remains after preservation. Skins may contribute some dietary fiber. Not ideal for fiber intake, but fine in a mixed-diet context. Works well with fiber-rich cereals or yogurt. Smooth and soft texture reflects low fiber content.",
+      "otherNutrients": "Contains natural sugars and trace antioxidants. May include potassium and vitamin A in small amounts. Higher sugar content due to syrup base. Not recommended for sugar-restricted diets. Best enjoyed in moderation as a treat.",
+      "calories": "Approximately 25–35 kcal per cherry depending on syrup concentration. Adds sweetness with modest calorie impact. Denser than fresh fruit in energy due to added sugars. Can be used strategically in portion-controlled desserts. Low in fat, high in taste."
+    },
+    "uses": {
+      "fresh": "Serve directly from jar as a topping for cakes, puddings, and breakfast bowls. Ideal for layering into parfaits or folded into cream. Can be skewered for fruit platters or dessert garnishes. Makes a colorful addition to cheeseboards. Spoon over pancakes or waffles for instant luxury.",
+      "culinary": "Popular in black forest cakes, cherry pies, and cocktail garnishes. Can be cooked into glazes, sauces, or fruit fillings. Blends beautifully with whipped cream, custard, or mascarpone. Often used in mocktails, sundaes, and tarts. Adds color and elegance to festive baking."
+    },
+    "storage": {
+      "refrigeration": "Unopened jars can be stored at room temperature in a cool, dark place. After opening, refrigerate and consume within 7–10 days. Keep submerged in syrup to prevent drying. Use clean spoon each time to avoid contamination. Label with open date if used infrequently.",
+      "humidity": "Store in dry conditions to avoid label damage and seal weakening. Do not expose jar to water or condensation. Ensure cap is tightly closed after use. Avoid storage near steam or heat-producing appliances. Keep away from strong-smelling items to preserve aroma."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 7.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Honey Jar",
+  "price": 220,
+  "rating": 5,
+  "quantity": 45,
+  "category": "Pantry Staples",
+  "description": "Golden, viscous honey packed in a clear glass jar – a natural sweetener that's as nutritious as it is delicious. Harvested from wildflower or clover blooms, this honey boasts deep floral notes and a silky texture. It’s a pantry essential that complements both savory and sweet recipes. Ideal for drizzling, stirring, or baking, with long shelf-life and no additives. A wholesome, unprocessed touch of sweetness for daily use.",
+  "details": {
+    "appearance": {
+      "color": "Ranges from light amber to deep golden brown depending on floral source. Clear and glossy in texture with no visible sediments. Viscosity is thick and flows slowly when poured. Should appear uncrystallized if stored properly. Often sold in clear jars to highlight purity and hue.",
+      "shape": "Liquid form contained in a cylindrical or hexagonal jar, often with a screw-top lid. Jar shape is sturdy and designed for repeated use. No separation or layering should be visible in high-quality honey. Lid often has tamper-proof seal. Easy to scoop or pour with a spoon or dipper.",
+      "seeds": "Honey naturally contains no seeds or pulp. May occasionally have tiny bits of pollen in raw varieties. Commercially filtered honey is completely smooth and uniform. Zero seeds or solids should be present unless explicitly labeled as raw. Suitable for baking and beverages without straining.",
+      "freshness": "Raw honey never spoils if stored correctly, thanks to its natural antimicrobial properties. May crystallize over time – a sign of purity, not spoilage. Should smell fresh and sweet without sourness. Ideal when thick but spreadable, with no foam or cloudiness. Room temperature storage preserves optimal texture."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and floral with varying depth depending on flower source. Light honeys are more delicate, while darker ones offer bolder, molasses-like notes. Smooth mouthfeel with lingering sweetness. Ideal for pairing with breads, teas, or cheeses. Natural and unprocessed, with no artificial aftertaste.",
+      "aroma": "Mildly floral and sweet with hints of beeswax or fresh pollen in raw varieties. Scent becomes more pronounced when warmed. Should never smell sour, yeasty, or fermented. Offers a clean, pleasant aroma that complements baked goods and warm beverages. Reflects botanical origin subtly."
+    },
+    "nutrition": {
+      "vitaminC": "Contains trace amounts, but not a significant source of vitamin C. Best paired with citrus fruits or herbal teas to boost vitamin intake. Acts more as a soothing agent than a vitamin source. Not suitable as a replacement for fresh fruit. Focus is on energy and antioxidants.",
+      "fiber": "Honey does not contain fiber. Its role in the diet is as a natural sugar alternative, not a fiber provider. Should be used alongside whole grains or fruits for a balanced meal. Smooth and liquid texture reflects absence of roughage. Ideal for people needing low-fiber sweeteners.",
+      "otherNutrients": "Provides antioxidants, small amounts of B vitamins, and minerals like iron, calcium, and potassium. Antibacterial and anti-inflammatory properties make it a wellness staple. Natural sugar offers quick energy boost. Supports throat health and digestion in small amounts. Highly beneficial when consumed in moderation.",
+      "calories": "Roughly 60–65 kcal per tablespoon. Calorie-dense but more nutrient-rich than refined sugar. Suitable for energy drinks, granola, or pre-workout meals. Portion control advised due to high natural sugar. Better alternative to processed sweeteners in cooking and baking."
+    },
+    "uses": {
+      "fresh": "Use as a spread on toast, pancakes, or parathas. Stir into warm teas or herbal infusions for sweetness and comfort. Great for yogurt toppings or breakfast bowls. Adds a natural glow to salad dressings and marinades. Perfect for soothing sore throats when taken raw.",
+      "culinary": "Commonly used in baking, glazes, sauces, and meat marinades. Essential in granola bars, muffins, and honey cakes. Can be whipped into butter or infused with herbs for flavoring. Adds shine and moisture to baked goods. Works beautifully in fusion cuisines and beverages."
+    },
+    "storage": {
+      "refrigeration": "No refrigeration needed — store at room temperature in a sealed jar. Keep lid tightly closed to prevent moisture absorption. Refrigeration causes crystallization, which can be reversed by gentle warming. Place away from direct sunlight and stovetops. Always use dry utensils to avoid spoilage.",
+      "humidity": "Store in a cool, dry place to avoid fermentation. Excess humidity can thin the honey and encourage yeast growth. A sealed environment prevents contamination. Avoid storing near sinks or steamy appliances. Use silica packets or tight seals if repackaging."
+    }
+  },
+  "images": [
+    "assets/images/pantry cate 8.png",
+    "assets/images/bakery des 2.png",
+    "assets/images/pantry des 1.png"
+  ]
+},
+{
+  "name": "Rainbow Donuts",
+  "price": 80,
+  "rating": 5,
+  "quantity": 35,
+  "category": "Snacks",
+  "description": "Fluffy, glazed donuts topped with vibrant rainbow sprinkles, offering a burst of color and joy with every bite. These soft, sweet pastries are fried to golden perfection and lightly coated with a sugar glaze. Their cheerful presentation makes them a favorite for parties, celebrations, or just a sweet snack. A classic bakery indulgence reimagined in bright hues. Ideal for kids, sweet lovers, and Instagram-worthy treats.",
+  "details": {
+    "appearance": {
+      "color": "Golden brown base with a shiny glaze and multicolored candy sprinkles on top. The donuts have a festive, bright finish. Glaze is transparent and evenly coated. The sprinkles vary in size and hue — reds, blues, greens, yellows. Often served in stacked or boxed presentations.",
+      "shape": "Perfectly round with a signature hole in the middle. Smooth, symmetrical edges and a puffed-up center. Each donut is about 3 to 4 inches in diameter. Stackable and uniform for easy serving. Surface slightly raised where glaze sets.",
+      "seeds": "No seeds present; toppings are candy-based. Surface includes only sugar glaze and sprinkles. Entire texture is seedless, soft, and smooth with light crunch from toppings. Uniform texture without interruptions. Not to be confused with seeded pastries.",
+      "freshness": "Best when consumed within 1–2 days of preparation. Should be soft, moist, and springy to the touch. Glaze should remain glossy, not sticky or crystallized. No dryness or crumbling should occur. Fresh aroma and bounce indicate quality."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and buttery with hints of vanilla and sugar glaze. The dough is fluffy and mildly yeasty, while the sprinkles add a sugary crunch. Balanced sweetness, not overpowering. Pleasant mouthfeel with soft chew. Highly palatable for all age groups.",
+      "aroma": "Warm bakery aroma with a dominant sweet, vanilla-like scent. Light notes of fried dough and sugar. Fresh batches give off a comforting, nostalgic smell. Sprinkles may have faint candy scent. Best when slightly warm for maximum aromatic appeal."
+    },
+    "nutrition": {
+      "vitaminC": "Minimal to no vitamin C content. Primarily a dessert item, not intended for nutritional supplementation. Best enjoyed occasionally. Could be paired with fruit juice for balance. Not a source of essential vitamins.",
+      "fiber": "Very low in dietary fiber. Made with refined white flour and sweeteners. Not suited for high-fiber diets. Can be combined with fruit snacks for better digestion. Prioritizes flavor over nutrition.",
+      "otherNutrients": "High in carbohydrates and sugars, with minor fat from frying oil. Not a significant source of protein or micronutrients. Offers quick energy from simple carbs. Some batches may be fortified slightly depending on flour used.",
+      "calories": "Estimated 200–250 kcal per donut. Energy-dense and indulgent. Best consumed in moderation. Suitable as a dessert or occasional treat. Caloric content varies slightly based on size and glaze thickness."
+    },
+    "uses": {
+      "fresh": "Enjoy fresh with a glass of milk, tea, or coffee. Perfect for breakfast treats, kids’ snack boxes, or celebrations. Great for office snack tables or school parties. Can be served warm or room temperature. Delicious on-the-go or as a shareable dessert.",
+      "culinary": "Common in dessert spreads, café menus, and bakery shelves. Can be layered in donut towers for events. Often featured in dessert bars or gourmet boxes. Adds visual appeal to platters. Can be drizzled with sauces or dipped in chocolate for extra flair."
+    },
+    "storage": {
+      "refrigeration": "Best kept at room temperature in a sealed container for up to 2 days. Avoid refrigeration as it may dry the dough. If necessary, microwave briefly to restore softness. Do not freeze glazed donuts. Keep away from moisture and air.",
+      "humidity": "Store in a dry place to prevent glaze from melting. High humidity can cause sogginess and spoil flavor. Use airtight packaging or wrap in wax paper. Avoid storage near hot foods. Ensure container remains moisture-proof for longer freshness."
+    }
+  },
+  "images": [
+    "assets/images/snack cate 1.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Orange Mocktail",
+  "price": 80,
+  "rating": 5,
+  "quantity": 40,
+  "category": "Snacks",
+  "description": "A refreshing citrus mocktail made from freshly squeezed orange juice, topped with mint leaves and a slice of lemon. This vibrant drink is served chilled over ice for maximum coolness and appeal. Sweet, tangy, and invigorating, it’s perfect for sunny days, brunches, or parties. Free from alcohol but rich in zest and flavor. Ideal as a non-alcoholic alternative with a gourmet twist.",
+  "details": {
+    "appearance": {
+      "color": "Bright orange with natural citrus tones, sometimes lightly opaque due to pulp. Served in a tall glass with ice cubes, garnished with fresh green mint leaves and a lemon slice or wedge. Straw and stirrer may be included for a vibrant finish.",
+      "shape": "Usually served in a slender highball or cocktail glass. Garnishes such as mint and lemon add a layered aesthetic. Ice cubes may appear square or crushed. Presentation is sleek and colorful, suited for events or cafes.",
+      "seeds": "No seeds are present in the final drink. Juice is usually strained or pulp-filtered to remove any orange seeds. Clear, seed-free for smooth sipping. Garnishes do not include seeded fruits. No solid components besides ice and herbs.",
+      "freshness": "Best when served immediately after preparation. Juice should be cold and visibly fresh with no discoloration. Mint leaves must be green and perky, not wilted. Lemon slice should be firm and juicy. A fresh citrus scent indicates top quality."
+    },
+    "tasteAndAroma": {
+      "flavor": "A zesty and sweet orange flavor balanced by a hint of lemon and the cooling note of mint. Slight tartness complements the natural sugars. Very refreshing and hydrating. Tastes natural, not artificial. Clean finish without bitterness.",
+      "aroma": "Fragrant with fresh orange zest, supported by lemon oils and minty undertones. The citrus fragrance is dominant, with no off-notes. Gives off a clean, tropical summer vibe. Inviting scent makes it ideal as a welcome drink."
+    },
+    "nutrition": {
+      "vitaminC": "Rich in vitamin C thanks to fresh orange and lemon content. Supports immune function and skin health. Great natural supplement. One serving may meet or exceed daily vitamin C needs. Excellent for citrus intake.",
+      "fiber": "Low to moderate fiber depending on pulp inclusion. Mostly juice-based, so minimal dietary fiber unless unfiltered. Not a primary fiber source. Could be combined with fibrous snacks. Smooth and pulp-light texture.",
+      "otherNutrients": "Contains natural sugars, potassium, and trace antioxidants. A hydrating drink with electrolytes. Free from fats or cholesterol. Low sodium. Great for energy boost or post-meal digestion support. Zero caffeine.",
+      "calories": "Estimated 60–90 kcal per glass, depending on sweetness and juice concentration. Light on the stomach. Appropriate for low-calorie diets. Great for summer refreshment without guilt. No added fats."
+    },
+    "uses": {
+      "fresh": "Ideal for summer days, brunches, receptions, or casual lounging. Pairs well with light snacks or finger foods. Perfect mocktail for guests or teetotalers. Also works as a breakfast drink. Must be consumed cold.",
+      "culinary": "Used in party drink menus, café offerings, or detox regimens. Can be a base for other mixed mocktails. Occasionally served with edible flowers or fruit chunks for enhanced presentation. Ideal for wellness bars."
+    },
+    "storage": {
+      "refrigeration": "Must be kept refrigerated if not consumed immediately. Should be served below 8°C. Best within 24 hours if stored. Do not freeze to preserve flavor. Fresh juice separates naturally — shake before serving.",
+      "humidity": "Humidity has minimal effect when sealed properly. Use airtight glass bottles for storage. Keep away from open air and warmth to prevent oxidation. Garnishes like mint and lemon should be added fresh, not stored together."
+    }
+  },
+  "images": [
+    "assets/images/snack cate 2.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Watermelon Juice",
+  "price": 80,
+  "rating": 5,
+  "quantity": 45,
+  "category": "Snacks",
+  "description": "A hydrating and naturally sweet beverage made from fresh watermelon pulp, served chilled for a refreshing boost. Vibrant in color and rich in taste, this juice is a perfect summer cooler. It offers a clean, fruity flavor without any added sugars or preservatives. Garnished with a wedge of watermelon and mint for a tropical touch. A great thirst quencher that’s also loaded with health benefits.",
+  "details": {
+    "appearance": {
+      "color": "Bright reddish-pink with a slight frothy layer on top when freshly blended. Served in a clear glass to highlight its vibrant hue. May be garnished with a small wedge of watermelon or mint leaves. No visible pulp or seeds if filtered.",
+      "shape": "Served in a medium to tall glass with a smooth body and rounded rim. Typically includes a straw. Presentation may include ice cubes or crushed ice for cooling. Watermelon slice is triangular with a contrasting green rind.",
+      "seeds": "No seeds are present in the beverage. Juice is filtered or deseeded during preparation. Smooth consistency with no solid particles. Ideal for uninterrupted sipping.",
+      "freshness": "Must be consumed within a few hours of preparation for peak taste and color. Juice should look bright, not dull. Fresh aroma and clean, sweet taste are indicators of freshness. Mint garnish should be crisp, not wilted."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and mellow with the unmistakable light flavor of ripe watermelon. Slightly tangy undertones may be present depending on ripeness. Very cooling and light on the palate. No bitterness or artificial aftertaste. Naturally delightful.",
+      "aroma": "A subtle yet sweet aroma reminiscent of freshly cut watermelon. Slight grassy notes from rind may remain faintly in the background. Refreshing and clean. Garnish adds a faint herbal touch when included."
+    },
+    "nutrition": {
+      "vitaminC": "Moderate vitamin C content, aiding in immune support and hydration. Best when made with freshly ripe watermelon. Can help replenish fluids after heat exposure or exercise.",
+      "fiber": "Minimal to no fiber due to straining of pulp. Not a significant fiber source. Consider pairing with fibrous foods if needed. Smooth-drinking texture.",
+      "otherNutrients": "Low in calories and fat. Contains potassium, magnesium, and lycopene — an antioxidant known for heart and skin benefits. Hydrating and naturally low-sugar compared to other fruit juices.",
+      "calories": "Approximately 40–60 kcal per glass, depending on dilution and serving size. Excellent for low-calorie hydration. No added sugars. Suitable for weight management diets."
+    },
+    "uses": {
+      "fresh": "Perfect summer drink served over ice. Great for detox routines, picnics, or after workouts. Ideal companion for breakfast or light lunch. Can be enjoyed plain or with added mint and lemon.",
+      "culinary": "Used in wellness cafés, juice bars, or catered events. Can be frozen into popsicles or added to smoothies. Often served as part of fruit punch mixes. Popular in buffet spreads and summer brunch menus."
+    },
+    "storage": {
+      "refrigeration": "Must be stored in a refrigerator if not consumed immediately. Best within 12–24 hours of preparation. May separate slightly on standing — stir before serving. Do not freeze to avoid texture loss.",
+      "humidity": "Store in airtight glass or BPA-free plastic containers to prevent contamination. High humidity has no major impact if juice is sealed. Keep away from heat sources and sunlight to avoid spoilage."
+    }
+  },
+  "images": [
+    "assets/images/snack cate 3.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Chocolate Waffles",
+  "price": 80,
+  "rating": 5,
+  "quantity": 40,
+  "category": "Snacks",
+  "description": "Crispy-on-the-outside, fluffy-on-the-inside waffles infused with rich cocoa and drizzled with melted chocolate. These indulgent treats are a go-to snack for chocolate lovers seeking a warm, dessert-like bite. Perfectly cooked with deep pockets for catching sauces or toppings. Whether eaten alone or paired with ice cream, they offer a delightful blend of crunch and softness. Ideal for breakfast, dessert, or anytime cravings.",
+  "details": {
+    "appearance": {
+      "color": "Deep brown with a glossy chocolate drizzle on top. Waffle surface has visible ridges and squares. Some portions may show slightly darker, caramelized edges. Chocolate sauce is dark and slightly glossy.",
+      "shape": "Classic waffle pattern — square or rectangular with grid-like indentations. Usually around 4–5 inches wide. Served in halves or quarters. Chocolate drizzle follows the waffle contours.",
+      "seeds": "No seeds or toppings are embedded. Surface is clean, but may have occasional powdered sugar or chocolate chips for presentation. Texture is consistent without inclusions.",
+      "freshness": "Best served warm, straight from the waffle iron. Crisp exterior with soft interior. Chocolate drizzle remains glossy and slightly sticky. No sogginess or dryness should be present."
+    },
+    "tasteAndAroma": {
+      "flavor": "Rich chocolate flavor with a balance of sweetness and slight bitterness from cocoa. Soft interior absorbs chocolate sauce, enhancing taste. Crisp edges offer a satisfying contrast. No artificial aftertaste — pure cocoa indulgence.",
+      "aroma": "Warm and inviting scent of baked chocolate and toasted flour. Chocolate drizzle intensifies the cocoa aroma. Hints of vanilla or butter may be present. Ideal comfort-food fragrance."
+    },
+    "nutrition": {
+      "vitaminC": "Not a source of vitamin C. Primarily a dessert/snack item. Can be served with fresh berries or fruit for vitamin boost. Best consumed occasionally.",
+      "fiber": "Low in fiber unless made with whole wheat flour. Smooth texture without grainy bits. Focused on taste and comfort, not fiber.",
+      "otherNutrients": "Provides energy from carbs and moderate fats. Contains some calcium and iron from flour and cocoa. Not a significant source of protein. Chocolate may offer minor antioxidants.",
+      "calories": "Approximately 120–180 kcal per waffle piece depending on portion size and toppings. Considered a medium-calorie indulgence. Can be shared or portioned for lighter snacking."
+    },
+    "uses": {
+      "fresh": "Ideal served hot with chocolate or caramel drizzle. Great with ice cream, whipped cream, or berries. Perfect for dessert menus, breakfast platters, or food trucks. A treat for all ages.",
+      "culinary": "Popular in dessert bars, brunch events, and as part of waffle sandwiches. Can be stacked or cut into bites for platters. Works well in cafés, diners, or at-home brunch setups."
+    },
+    "storage": {
+      "refrigeration": "If premade, refrigerate and reheat before serving. Best consumed fresh. Chocolate drizzle may harden if chilled. Avoid storing with moisture-prone foods to retain crispness.",
+      "humidity": "Store in low-humidity environment to prevent sogginess. Use parchment or dry containers if batching. Keep chocolate topping away from heat to avoid melting mess."
+    }
+  },
+ "images": [
+    "assets/images/snack cate 4.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+
+},
+{
+  "name": "Assorted Macarons",
+  "price": 80,
+  "rating": 5,
+  "quantity": 60,
+  "category": "Snacks",
+  "description": "Delicate French-style macarons in a variety of flavors, featuring crisp shells with soft, chewy centers and luscious fillings. Each macaron is made with almond flour for a nutty base and filled with flavored ganache, cream, or jam. Their vibrant colors and refined taste make them perfect for gifts or high-tea servings. These bite-sized treats offer a mix of fruity, nutty, and chocolatey profiles. A premium dessert for those who appreciate finesse and flavor.",
+  "details": {
+    "appearance": {
+      "color": "Assorted pastel colors — light pink, green, beige, chocolate brown, and more. Each macaron has a smooth, glossy shell and slightly rough 'foot' at the bottom edge. Filling is visible at the center, matching or complementing shell color.",
+      "shape": "Round, sandwich-style with flat top and bottom shells and a visible layer of filling. Typically about 1.5 to 2 inches in diameter. Uniform shape with precise edges and neat structure.",
+      "seeds": "No visible seeds, though some variants may contain fine specks from flavor ingredients (e.g., vanilla, cocoa). Surface is smooth without grains or coarse textures. Allergen note: contains nuts (almond flour).",
+      "freshness": "Shells should be crisp upon bite, giving way to a moist, tender center. Fillings stay creamy without leaking. Must be stored well to retain texture. Fresh macarons have no cracks or drying."
+    },
+    "tasteAndAroma": {
+      "flavor": "Flavor varies by color — common profiles include vanilla, chocolate, pistachio, raspberry, coffee, and lemon. Balanced sweetness with a subtle nutty undertone from almond base. Fillings add depth with tang, creaminess, or richness. A refined, layered flavor experience.",
+      "aroma": "Light and pleasant aroma — a blend of nutty almond, vanilla, fruit essences, and cocoa. Subtle and elegant without overpowering artificial notes. Best enjoyed at room temperature for full aromatic effect."
+    },
+    "nutrition": {
+      "vitaminC": "Low in vitamin C unless fruit-flavored (e.g., lemon or raspberry variants may have trace amounts). Not intended as a vitamin source. Can be paired with fresh fruit for a balanced snack.",
+      "fiber": "Minimal fiber due to almond flour base and sugar content. Light in texture, not grainy or coarse. Can be complemented with high-fiber snacks for dietary balance.",
+      "otherNutrients": "Contains healthy fats from almonds. Some protein from nut flour and eggs. Moderate sugars and carbohydrates. Not suitable for low-sugar diets. Energy-dense for small size.",
+      "calories": "Roughly 70–100 kcal per macaron depending on filling and size. High in quality ingredients but intended for portioned indulgence. Calorie-dense for its size."
+    },
+    "uses": {
+      "fresh": "Perfect for gifting, celebrations, or elegant dessert tables. Ideal with tea, coffee, or champagne. Can be enjoyed as a single sweet treat or in a mixed box. A visual and gustatory delight.",
+      "culinary": "Frequently used in high-tea platters, patisserie assortments, and event catering. Can be displayed in tiers, boxes, or clear domes. Popular in weddings, brunches, or premium cafe menus."
+    },
+    "storage": {
+      "refrigeration": "Store in a cool, airtight container. Refrigeration recommended but allow to come to room temp before serving. Avoid freezing to preserve shell texture. Keep away from moisture or odor-heavy items.",
+      "humidity": "Highly sensitive to humidity — keep in dry conditions. Humidity may soften shells or ruin their structure. Use desiccants or sealed packaging when needed."
+    }
+  },
+ "images": [
+    "assets/images/snack cate 5.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Gourmet Burger",
+  "price": 150,
+  "rating": 5,
+  "quantity": 35,
+  "category": "Snacks",
+  "description": "A premium burger stacked with a juicy, seasoned patty, crisp lettuce, fresh tomato, melty cheese, and a toasted artisan bun. This gourmet version offers a balance of textures — soft, crunchy, and creamy — packed into every bite. Each component is carefully layered for visual appeal and taste harmony. Crafted with high-quality ingredients and chef-inspired sauces. Ideal for food lovers seeking an elevated fast-food experience.",
+  "details": {
+    "appearance": {
+      "color": "Golden-brown bun with light toasting on top and bottom. Fresh green lettuce, deep red tomato slices, yellow-orange cheese melt, and browned meat patty peeking through. Condiments add color contrast — like creamy white mayo or rich reddish-brown sauces. Bright, layered, and highly appetizing.",
+      "shape": "Round and stacked vertically, with a top-to-bottom symmetry. Bun is domed and slightly firm to the touch. The fillings align neatly in size and shape. Roughly 4–5 inches in diameter and 3–4 inches in height. Easy to grip and bite into.",
+      "seeds": "Sesame seeds may be present on the bun top, offering mild crunch and visual appeal. No seeds inside fillings. Clean structure without any grainy residue. Optional depending on bun style.",
+      "freshness": "Bun is soft but not soggy, showing signs of light toasting. Lettuce and tomato stay crisp and vibrant. Patty is hot, juicy, and freshly grilled. No dryness, staleness, or off-odors. Assembled fresh for immediate enjoyment."
+    },
+    "tasteAndAroma": {
+      "flavor": "Rich, savory, and balanced. The meat offers a deep umami flavor, complemented by creamy cheese, tangy sauces, and crisp veggies. The bun adds a light sweetness and toasty note. Flavors blend into a satisfying, layered bite. Well-seasoned but not overpowering.",
+      "aroma": "Inviting scent of grilled beef, warm bread, and fresh vegetables. Cheese and sauces contribute buttery or spiced undertones. Slight smoky aroma from patty searing. Stimulates appetite immediately. No artificial smell or stale notes."
+    },
+    "nutrition": {
+      "vitaminC": "Some vitamin C from lettuce and tomato slices, though in small amounts. Best paired with a citrus drink or side salad for full vitamin C coverage. Meant for indulgence more than micronutrient supply.",
+      "fiber": "Moderate fiber from lettuce, tomato, and whole wheat buns (if used). White buns have lower fiber content. Adding more vegetables or whole grain buns increases fiber. Balanced when served with a fiber-rich side.",
+      "otherNutrients": "Contains protein from meat patty and cheese. Includes healthy fats (if grilled with olive oil or lean meats). May provide calcium and B vitamins from cheese and bun. Not suitable for low-fat or low-carb diets. High in satiety.",
+      "calories": "Approximately 350–500 kcal per burger depending on patty size and toppings. High energy content due to meat, cheese, and sauces. Best as a main meal component. Suitable for active individuals or cheat days."
+    },
+    "uses": {
+      "fresh": "Best eaten fresh and hot. Serve with fries, wedges, or coleslaw. Ideal for quick lunch, dinner, or food truck-style meal. Not suitable for long-term storage once assembled. Also works well as a takeaway item.",
+      "culinary": "Can be customized with gourmet toppings like caramelized onions, truffle mayo, or fried egg. Popular in food festivals, cafés, and upscale casual dining. May be halved and served in slider form for events. Works well in combo meals."
+    },
+    "storage": {
+      "refrigeration": "Not ideal for refrigeration post-assembly — may cause sogginess. If components are stored separately, refrigerate the patty and cheese only. Reheat patty before serving. Bun and veggies should be added fresh.",
+      "humidity": "Keep in a dry, ventilated space before assembly. Excess humidity softens the bun and wilts greens. Assemble right before serving for optimal freshness. Use food wrap to prevent bun from absorbing moisture."
+    }
+  },
+   "images": [
+    "assets/images/snack cate 6.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+
+},
+{
+  "name": "Classic Popcorn Tub",
+  "price": 90,
+  "rating": 4,
+  "quantity": 60,
+  "category": "Snacks",
+  "description": "Light, fluffy kernels popped to golden perfection and served in a classic tub for easy snacking. This cinema-style popcorn delivers a satisfying crunch with every bite, offering a mix of buttery and lightly salted notes. Ideal for movie nights, parties, or casual munching. The generous tub ensures there's enough to share — or not! A nostalgic, universally loved treat that brings instant joy.",
+  "details": {
+    "appearance": {
+      "color": "Popped kernels are pale yellow to ivory white with a subtle golden tint from butter or seasoning. The tub is typically red-striped or brightly printed for visual appeal. Occasional darker spots may appear from caramelization. Uniform popping and clean, airy structure. No signs of burning or discoloration.",
+      "shape": "Kernels are irregularly round or mushroom-shaped with light, expanded surfaces. Average size ranges from 0.5 to 1 inch per popped piece. Tub is cylindrical, around 7–10 inches tall, and filled to the brim. Designed for easy grabbing and visual abundance.",
+      "seeds": "Unpopped kernels (if any) are small, hard, and usually settle at the bottom. Overall, product should be seed-free on top. Quality popcorn minimizes unpopped or half-popped seeds. Fully puffed pieces dominate the batch.",
+      "freshness": "Fresh popcorn is crisp, dry, and aromatic with no sogginess. Butter coating is light and evenly distributed without greasiness. Should not feel chewy or stale. Best consumed immediately or within a day of popping. Strong buttery scent confirms freshness."
+    },
+    "tasteAndAroma": {
+      "flavor": "Mild corn sweetness balanced with a salty, buttery finish. Light crunch followed by a melt-in-mouth texture. Savory profile that can be paired with spices, caramel, or cheese toppings. Clean aftertaste with no bitterness. Appeals to all ages and snacking preferences.",
+      "aroma": "Warm and buttery with a toasted corn scent. Reminiscent of cinemas and snack stands. Not overpowering or artificial. Aromatic freshness fades after long exposure, so best enjoyed quickly. Inviting and comforting to smell."
+    },
+    "nutrition": {
+      "vitaminC": "Contains negligible to no vitamin C. Popcorn is not a vitamin-rich food. Can be paired with fruit juices or citrus-based drinks to supplement. Intended more for satisfaction than nutrition. Not a significant source of immunity-boosting nutrients.",
+      "fiber": "Moderate fiber content from whole grain popcorn. Helps with digestion if consumed in moderation. Best paired with water or light beverages. One of the few snack foods that naturally provide fiber. Makes it a smarter indulgent choice.",
+      "otherNutrients": "Low in fat if air-popped; buttered versions contain added saturated fats. Natural source of polyphenols and some B vitamins. Minimal protein and sugar. Offers quick satiety without heavy calorie load. Can be enriched with cheese or seasoning blends.",
+      "calories": "Roughly 30–50 kcal per cup for plain; 80–100 kcal with butter or seasoning. Entire tub may contain 300–500 kcal depending on size. Light in calories compared to other snacks. Great for portioned indulgence or sharing."
+    },
+    "uses": {
+      "fresh": "Perfect for movie nights, family gatherings, or party bowls. Serve in tubs, paper bags, or bowls for convenience. Tastes best warm or freshly popped. Easy to eat by hand or with scoops. Also used at carnivals or festivals.",
+      "culinary": "Can be seasoned with cheese, caramel, chili-lime, or herbs. Used in trail mixes or dessert toppings. Often featured in snack bars or popcorn machines. Can be pressed into snack bars with syrup. Ideal for bulk prep and packaging."
+    },
+    "storage": {
+      "refrigeration": "Do not refrigerate — moisture softens popcorn and ruins texture. Store in an airtight container at room temperature. Consume within 1–2 days for peak crispness. Avoid frequent opening and resealing of tub.",
+      "humidity": "Keep in low humidity environments. Moisture leads to sogginess and flavor loss. Use sealed bags or tubs with desiccants for long shelf life. Do not expose to steam, damp cloths, or open kitchens. Always reseal if not consumed fully."
+    }
+  },
+    "images": [
+    "assets/images/snack cate 7.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Cappuccino Coffee",
+  "price": 150,
+  "rating": 5,
+  "quantity": 40,
+  "category": "Snacks",
+  "description": "A classic Italian-style coffee made with equal parts espresso, steamed milk, and milk foam. The rich, full-bodied espresso forms the bold base, softened by creamy milk and topped with a cloud of frothy foam. Each cup delivers a well-balanced flavor with a slightly sweet, toasty finish. Perfect for morning energy boosts or cozy afternoon moments. Elegantly served and ideal for café culture lovers.",
+  "details": {
+    "appearance": {
+      "color": "The beverage has a layered appearance with dark brown espresso at the base, light tan milk in the middle, and a white, foamy top. Served in a white porcelain cup or takeaway cup with a dusting of cocoa or cinnamon. Foam is thick and glossy, forming a dome shape. Aesthetic latte art is often featured on top. Visual appeal is elegant and inviting.",
+      "shape": "Typically served in an 6–8 oz cup, rounded with a wide mouth for showcasing foam. Foam layer is thick and stable, often about 1 inch tall. The drink maintains even layers when made professionally. Cup may come with a saucer and small spoon. Designed for visual and aromatic enjoyment.",
+      "seeds": "No seeds or solids are present in this beverage. Entire drink is liquid and froth-based. Occasionally garnished with a sprinkle of powdered cocoa or cinnamon, but free from chunks. Filtered to exclude grounds. Smooth and drinkable throughout.",
+      "freshness": "Prepared fresh on order using freshly ground espresso beans. Best enjoyed within minutes of preparation. Foam should be firm and not collapsed. Aroma fades with time, so immediate consumption is ideal. Milk should be steamed freshly, not reused or overheated."
+    },
+    "tasteAndAroma": {
+      "flavor": "Rich and bold espresso flavor balanced with the natural sweetness of steamed milk. Foam adds a light, airy texture and slight creaminess. Offers a smooth, harmonious mouthfeel with minimal bitterness. Can be customized with syrups or flavor shots. A perfect fusion of intensity and softness.",
+      "aroma": "Strong, roasted coffee scent with creamy, slightly sweet milk notes. Aromatic steam rises from the foam, making it both warming and inviting. Cocoa powder adds a faint chocolatey touch when present. Best consumed while warm for full aromatic impact. Smells like a cozy café atmosphere."
+    },
+    "nutrition": {
+      "vitaminC": "Contains minimal to no vitamin C. Not a source of this nutrient. May be paired with fruit or juice for a balanced snack. Primary focus is flavor and caffeine content. Consider complementary foods to meet vitamin needs.",
+      "fiber": "No dietary fiber content in cappuccino. Smooth and fully liquid with no solids. Pair with fibrous snacks like whole-grain biscuits or fruit for balance. Not suitable as a fiber source. Focuses on hydration and stimulation.",
+      "otherNutrients": "Contains calcium and vitamin D if made with dairy milk. Offers caffeine for energy and focus. Minimal fat and carbs unless flavored or sweetened. Can be adapted to plant-based milks for dietary preferences. Good source of antioxidants from coffee.",
+      "calories": "Approximately 70–120 kcal depending on milk and sugar added. Lower in calories when made with skim milk or no sweeteners. Light enough for daily enjoyment. Can be part of a low-calorie snack combo. Portion size affects calorie count."
+    },
+    "uses": {
+      "fresh": "Best enjoyed immediately after preparation. Ideal for breakfast, brunch, or mid-day coffee breaks. Complements pastries, biscuits, or sandwiches. Suitable for serving guests or café menus. A staple in coffee culture routines.",
+      "culinary": "Used in café beverages, coffee-flavored desserts, or cocktail infusions. Can be topped with whipped cream, cinnamon, or flavored syrups. Latte art enhances visual presentation in cafés. Used in affogato-style drinks or dessert pairings. Common in professional barista menus."
+    },
+    "storage": {
+      "refrigeration": "Not suitable for storage — best consumed fresh. If needed, refrigerate for a few hours but foam will collapse. Reheating can affect flavor and texture. Do not freeze. Ideal when made fresh for every cup.",
+      "humidity": "Humidity has minimal effect if consumed immediately. For takeaway cups, store in dry environment to prevent lid condensation. Excess humidity can alter foam quality. Best in air-conditioned or ambient settings. Avoid steam-heavy areas post-preparation."
+    }
+  },
+    "images": [
+    "assets/images/snack cate 8.png",
+    "assets/images/snack des 1.png",
+    "assets/images/snack des 2.png"
+  ]
+},
+{
+  "name": "Frozen Cherries on Ice",
+  "price": 80,
+  "rating": 5,
+  "quantity": 60,
+  "category": "Frozen",
+  "description": "Juicy, deep-red cherries flash frozen with a delicate coating of frost and served atop crushed ice. These cherries offer a burst of tart-sweet flavor in every bite, perfect for smoothies, desserts, or direct snacking. Rich in antioxidants and visually stunning, they bring freshness even when chilled. Their icy texture makes them ideal for summer treats. A vibrant, refreshing frozen fruit option.",
+  "details": {
+    "appearance": {
+      "color": "Dark red to purple cherries with a glistening icy coating. Some white frost may form on the surface due to freezing. Crushed ice adds sparkle and contrast. Leaf stems may still be attached, giving a natural touch. Bright and appealing presentation.",
+      "shape": "Round, plump cherry shape, around 1 inch in diameter. Firm due to freezing. Pits may remain inside if not pitted. Crushed ice pieces vary in size and add texture to the dish. Stems add a rustic look.",
+      "seeds": "Contains natural cherry pits unless pitted. Pits are hard and oval inside the fruit. Exercise caution while consuming. No added seeds on surface. Pure cherry fruit integrity maintained.",
+      "freshness": "Flash frozen to lock in nutrients and color. Should remain firm and frosty until ready to use. No mushy texture or discoloration. Best when stored below -18°C. Tastes best when thawed slightly before eating."
+    },
+    "tasteAndAroma": {
+      "flavor": "Tart and sweet cherry flavor, enhanced by icy chill. Refreshing on the palate, with a sharp fruity burst. Texture turns slightly chewy as it thaws. Great alone or mixed with yogurt, granola, or shakes.",
+      "aroma": "Subtle cherry fragrance once thawed. Smells natural and fruity with a cold freshness. No artificial scent. Hints of berry-like acidity. Mild aroma when frozen, stronger when warmed slightly."
+    },
+    "nutrition": {
+      "vitaminC": "Rich source of vitamin C, supporting immunity and skin health. Retains vitamin content when frozen properly. Best consumed before long freezer storage to maximize benefits. Adds a nutritious boost to any dish.",
+      "fiber": "Contains dietary fiber, supporting digestion. Pitted cherries are easier to consume for fiber benefit. Great for inclusion in high-fiber diets. One cup provides a moderate fiber amount.",
+      "otherNutrients": "Includes potassium, antioxidants, and melatonin for sleep support. Low in fat and naturally sweet. Low calorie but nutrient-dense. Great post-workout or as part of a balanced frozen snack.",
+      "calories": "Around 50–70 kcal per 100g serving. Low-calorie fruit option. Satisfies sweet cravings without added sugar. Helps with portion control while enjoying dessert-like appeal."
+    },
+    "uses": {
+      "fresh": "Consume straight from the freezer or slightly thawed. Perfect for smoothies, oatmeal toppings, or ice-cream pairings. Excellent addition to frozen fruit bowls or parfaits. Great in cocktails too.",
+      "culinary": "Used in cherry pies, crumbles, smoothies, sorbets, and jams. Works in sauces for meats like duck or pork. Can be pureed for popsicles or frozen yogurt. Adds color to holiday platters or cheese boards."
+    },
+    "storage": {
+      "refrigeration": "Must be stored in freezer below -18°C. Do not thaw and refreeze. Once opened, reseal tightly. Best if consumed within 6 months of packaging.",
+      "humidity": "Keep in low-humidity environments to avoid clumping or ice crystal formation. Ensure airtight packaging to prevent freezer burn. Avoid exposure to open air or frost buildup."
+    }
+  },
+  "images": [
+    "assets/images/frozen cate 1.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Frozen Orange Slices with Mint",
+  "price": 80,
+  "rating": 5,
+  "quantity": 70,
+  "category": "Frozen",
+  "description": "Vibrant orange slices frozen to preserve juiciness and infused with hints of mint leaves for a zesty lift. Each slice captures the citrus tang and sunny sweetness of fresh oranges, perfect for cocktails, desserts, or smoothies. Refreshingly crisp and hydrating, they offer instant revitalization on hot days. A beautiful pairing of fruit and herb that’s as functional as it is flavorful. A freezer staple for summer moments.",
+  "details": {
+    "appearance": {
+      "color": "Bright orange flesh with pale yellow rinds. Thin slices with visible translucent segments. Fresh green mint leaves interspersed for color contrast. A slight frosty coating adds sparkle. Visually clean and vivid presentation.",
+      "shape": "Round citrus wheels, about 1/4 inch thick. Uniformly cut into cross-sections of the orange. Mint leaves are whole or halved. Easily stackable and visually appealing for drink garnishing or platter use.",
+      "seeds": "May contain small white seeds in center segments. Seeds are natural and few in number. No added seeds or toppings. Entirely natural fruit and herb presentation.",
+      "freshness": "Frozen at peak ripeness to preserve juice and texture. Mint retains green hue and light aroma. No signs of freezer burn or discoloration. Remains firm until thawed. Best used within 6 months of freezing."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and tangy orange with a subtle menthol freshness from mint. Crisp texture gives way to juicy release when thawed. Balanced between fruitiness and herbaceous tones. Very refreshing and clean on the palate.",
+      "aroma": "Bright citrus fragrance with cool, fresh mint undertones. Intensifies slightly upon thawing. Smells clean and natural. No artificial scents. Invigorating to the senses, perfect for summer drinks."
+    },
+    "nutrition": {
+      "vitaminC": "High in vitamin C, essential for immune support and skin vitality. Retains most of its nutritional value when properly frozen. Great addition to daily diet or wellness beverages.",
+      "fiber": "Provides moderate fiber, especially in the pulp and rind. Helps in digestion when consumed whole. Not juiced, so retains full fruit fiber benefits. Ideal in high-fiber frozen snacks.",
+      "otherNutrients": "Contains folate and potassium. Low in calories and fats. Mint adds trace amounts of vitamin A and antioxidants. Helps with hydration and mild detox benefits.",
+      "calories": "Approximately 45 kcal per 100g. Very low in calories. Ideal for calorie-controlled diets or as a guilt-free snack. Adds flavor without heaviness."
+    },
+    "uses": {
+      "fresh": "Drop into cold water, cocktails, or iced tea for instant flavor. Can be served as a cooling snack. Also suitable for garnish on fruit platters or summer desserts. Enjoyed frozen or slightly thawed.",
+      "culinary": "Used in sorbets, popsicles, infused waters, or mocktails. Can be blended into smoothies for a citrus burst. Adds color and taste to brunch spreads or cheese boards. Suitable for spa menus or juice bars."
+    },
+    "storage": {
+      "refrigeration": "Keep frozen at -18°C. Store in airtight packaging. Do not thaw and refreeze. Maintain dryness in container to preserve quality.",
+      "humidity": "Protect from freezer moisture and condensation. Store away from open containers to avoid ice crystal formation. Avoid humidity exposure post-thawing to prevent sogginess."
+    }
+  },
+ "images": [
+    "assets/images/frozen cate 2.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Frozen Berry Yogurt Bar",
+  "price": 80,
+  "rating": 5,
+  "quantity": 60,
+  "category": "Frozen",
+  "description": "A chilled yogurt slab bursting with whole berries, offering a creamy and tangy delight in every bite. The base is rich and slightly sweetened yogurt, frozen to create a firm, ice cream-like texture. Topped generously with mixed berries like raspberries and blueberries for natural tartness and crunch. It’s a guilt-free treat with probiotics and antioxidants. Perfect as a snack or light dessert on warm days.",
+  "details": {
+    "appearance": {
+      "color": "White to light pink base with vibrant red, purple, and blue berry accents. Each bar is marbled with berry juice streaks. Berries are whole or halved, creating a speckled surface. Frosted effect visible when frozen.",
+      "shape": "Rectangular or square bar, typically hand-held size. Flat surface with uneven berry distribution. Smooth edges with slightly rough top texture due to fruit. Appealing artisan look.",
+      "seeds": "May contain natural berry seeds, especially from raspberries and strawberries. Seeds are edible and scattered randomly. No added seeds apart from fruit content.",
+      "freshness": "Maintains firmness and creamy texture when stored at proper temperature. No signs of freezer burn or separation. Berries remain juicy and intact. Best enjoyed within 3–4 months."
+    },
+    "tasteAndAroma": {
+      "flavor": "Creamy, tangy yogurt base with bursts of sweet and tart berry flavor. Balance between smooth dairy and juicy fruit. Refreshing and not overly sweet. Natural and wholesome taste.",
+      "aroma": "Light yogurt scent mixed with fruity notes. Berry aroma becomes prominent when bar softens slightly. Smells clean, fresh, and mildly sweet. No artificial odors or additives detected."
+    },
+    "nutrition": {
+      "vitaminC": "Good source of vitamin C from berries, supporting immune function and skin health. Especially beneficial if consumed with visible whole fruits. Complements dairy’s nutritional profile.",
+      "fiber": "Moderate fiber from whole fruits. Yogurt itself provides minimal fiber. Great for digestion and gut health when consumed regularly.",
+      "otherNutrients": "Contains calcium, probiotics, and antioxidants. Yogurt base provides protein and beneficial bacteria. Berries add vitamins and polyphenols. Low to moderate in sugar depending on preparation.",
+      "calories": "Approximately 90–110 kcal per bar. Light dessert option with nutritional benefits. Suitable for healthy snacking and portion-controlled eating."
+    },
+    "uses": {
+      "fresh": "Eat straight from freezer as a refreshing snack. Great for children and adults alike. Pairs well with iced drinks or fruit bowls. Ideal for summer snacking or on-the-go nutrition.",
+      "culinary": "Used in frozen dessert platters or healthy café menus. Can be sliced and served with granola or fresh fruits. Popular in breakfast bars or spa menus. Customizable with toppings or sauces."
+    },
+    "storage": {
+      "refrigeration": "Must be stored in freezer at -18°C or lower. Keep in sealed packaging to prevent odor absorption. Do not thaw and refreeze. Best texture maintained below freezing point.",
+      "humidity": "Avoid condensation during thawing. Keep packaging dry. Prolonged humidity exposure can lead to texture breakdown. Use airtight containers for long-term storage."
+    }
+  },
+ "images": [
+    "assets/images/frozen cate 3.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Strawberry Cream Popsicle",
+  "price": 80,
+  "rating": 5,
+  "quantity": 70,
+  "category": "Frozen",
+  "description": "A creamy frozen delight made with real strawberries swirled into a smooth dairy base, delivering a perfect balance of fruity sweetness and velvety richness. This pink-hued popsicle is both refreshing and indulgent, ideal for summer treats. Each bite bursts with strawberry chunks and a mellow milkiness. The natural fruit flavor is preserved through careful freezing. It’s a nostalgic favorite for kids and adults alike.",
+  "details": {
+    "appearance": {
+      "color": "Soft pink base with darker strawberry streaks or chunks. Slight marbling from fruit blend. Smooth glossy surface with subtle icy sheen. Consistent color tone throughout.",
+      "shape": "Standard elongated popsicle shape with rounded ends. Mounted on a wooden stick for easy grip. Around 4–5 inches long. Visible fruit pieces embedded inside.",
+      "seeds": "May contain small strawberry seeds from fresh fruit pieces. Seeds are edible and natural. No added or artificial seeds present. Smooth to semi-grainy texture from real fruit.",
+      "freshness": "Maintains form and creaminess when frozen solid. No cracks or excessive ice crystals. Fresh strawberry aroma and taste when freshly made. Should be consumed before freezer expiration date for best experience."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and mildly tangy from strawberries with a rich creamy finish. Balanced dairy and fruit profile. Refreshing and smooth texture. Not overly sugary — feels natural and light.",
+      "aroma": "Fresh strawberry fragrance combined with a soft dairy note. Invokes homemade ice cream smell. Mild yet delightful when bar begins to soften. No artificial or chemical scents."
+    },
+    "nutrition": {
+      "vitaminC": "Good source of vitamin C from real strawberries. Helps support immunity and skin health. Levels depend on fruit quantity used. Contributes to daily vitamin intake.",
+      "fiber": "Contains trace fiber from fruit pieces. Not a significant source but better than plain dairy popsicles. Enhances digestive value slightly.",
+      "otherNutrients": "Includes calcium, some protein from dairy, and antioxidants from strawberries. May contain natural sugars. Overall a nutrient-enhanced frozen snack.",
+      "calories": "Around 100–120 kcal per popsicle. Light enough for regular indulgence. Can be included in a calorie-conscious diet. Offers satisfying fullness without heaviness."
+    },
+    "uses": {
+      "fresh": "Perfect when enjoyed straight from the freezer. Ideal for summer refreshment, school tiffin treats, or poolside snacks. Can be paired with fruit salads. A popular nostalgic frozen dessert.",
+      "culinary": "Often used in dessert stations, themed party trays, or kids' menus. Can be dipped in chocolate or sprinkled with nuts for variation. Great for food trucks and summer pop-ups."
+    },
+    "storage": {
+      "refrigeration": "Store at -18°C or lower in freezer. Do not expose to repeated thawing. Keep upright in molds or boxes to avoid melting shape. Shelf life is 2–3 months frozen.",
+      "humidity": "Keep packaging tightly sealed to avoid freezer burn or ice buildup. Avoid storing near strong-smelling items. Humidity can alter flavor and texture if unsealed."
+    }
+  },
+"images": [
+    "assets/images/frozen cate 4.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Frozen Mackerel Fish",
+  "price": 80,
+  "rating": 5,
+  "quantity": 60,
+  "category": "Frozen",
+  "description": "Freshly caught mackerel, cleaned and individually quick frozen to lock in flavor and nutrients. These silver-skinned fish retain their natural oils and firm texture, making them ideal for grilling, frying, or steaming. Rich in Omega-3 fatty acids and protein, frozen mackerel offers a nutritious and convenient seafood option. Perfectly preserved to maintain ocean-fresh quality. Popular for traditional and contemporary cooking alike.",
+  "details": {
+    "appearance": {
+      "color": "Silvery blue skin with hints of grey; clean with visible stripe patterns on top. Slight frost layer indicating deep freeze. Flesh inside is pale pink to white. No discoloration or dullness.",
+      "shape": "Whole fish with head and tail intact, average size 6–8 inches. Slight curve in posture due to freezing. Uniform in size and neatly arranged. Eye clarity retained through freezing.",
+      "seeds": "No seeds. Contains natural bones typical of whole fish. No artificial additions or stuffing. Clean flesh suitable for filleting or full cooking.",
+      "freshness": "Frozen at peak freshness within hours of catch. Firm flesh with no odor leakage. Maintains moisture when thawed properly. Fishy smell is mild and clean — not pungent."
+    },
+    "tasteAndAroma": {
+      "flavor": "Mildly oily and rich, with a bold, slightly sweet sea flavor. Texture remains firm and flaky after cooking. Ideal for robust seasoning. Versatile taste that absorbs marinades well.",
+      "aroma": "Neutral when frozen, becomes aromatic when cooked. Smells fresh and oceanic, not fishy or stale. Grilling or frying enhances savory notes."
+    },
+    "nutrition": {
+      "vitaminC": "No vitamin C present. Fish is not a natural source of ascorbic acid. Recommended to pair with citrus or vegetables to enhance nutritional value.",
+      "fiber": "No dietary fiber. As an animal protein, this product is fiber-free. Best complemented with fibrous side dishes for a balanced meal.",
+      "otherNutrients": "Excellent source of Omega-3s, B vitamins, iron, and protein. Supports heart and brain health. Low in carbohydrates. High in healthy fats and essential minerals.",
+      "calories": "Approximately 200–250 kcal per medium-sized fish depending on preparation. Rich energy source for high-protein diets. Low glycemic impact."
+    },
+    "uses": {
+      "fresh": "Defrost and use for home-cooked meals like grilled mackerel, curries, or pan-seared dishes. Excellent with lemon and herbs. A go-to for quick seafood dinners.",
+      "culinary": "Widely used in Asian, Mediterranean, and coastal cuisines. Perfect for sushi, smoked fish recipes, or traditional fish fries. Also used in soups and seafood platters."
+    },
+    "storage": {
+      "refrigeration": "Keep frozen at -18°C. Use within 3–4 months for optimal quality. Once thawed, cook within 24 hours and do not refreeze. Store in vacuum-sealed or airtight packaging.",
+      "humidity": "Store in low humidity freezer sections to prevent freezer burn. Avoid moisture exposure during thawing. Pat dry before marinating or seasoning."
+    }
+  },
+ "images": [
+    "assets/images/frozen cate 5.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Imitation Crab Sticks",
+  "price": 220,
+  "rating": 4,
+  "quantity": 35,
+  "category": "Frozen",
+  "description": "These imitation crab sticks, also known as surimi, offer the taste and texture of real crab at a fraction of the cost. Made from finely minced fish paste, they are lightly seasoned and colored to resemble authentic crab meat. Ideal for sushi, salads, and seafood dishes, they provide a convenient and affordable seafood alternative. The sticks are pre-cooked and ready to eat or heat. A versatile staple in frozen seafood sections worldwide.",
+  "details": {
+    "appearance": {
+      "color": "Outer layer is bright reddish-orange with a white interior. The contrast mimics the natural colors of cooked crab legs. Smooth and glossy surface due to freezing. Uniform in color with consistent white streaks inside. Often vacuum sealed for clarity and shape retention.",
+      "shape": "Cylindrical or rectangular sticks, approximately 3 to 4 inches long. Each stick is even in width and thickness, with slightly rounded edges. Easy to shred by hand for salads or sushi. Packaged in bundles or rows with plastic wrapping.",
+      "seeds": "No seeds or added grains. Surface and interior are entirely smooth. Pure surimi paste without inclusions. Maintains a consistent bite texture throughout. Designed to emulate crab meat flake structure when pulled apart.",
+      "freshness": "Flash-frozen to preserve texture and flavor. Should remain firm and moist once thawed. No fishy odor if kept properly. Best consumed within expiration date. Vacuum-packed for extended shelf life and freshness."
+    },
+    "tasteAndAroma": {
+      "flavor": "Mildly sweet and savory with a subtle seafood flavor. Balanced taste designed to be crab-like without being overpowering. Slight umami note from seasoning. Neutral enough to complement dips, sauces, or sushi rice. Does not have the strong brine of real crab.",
+      "aroma": "Light, clean seafood scent without pungency. Fresh smell is enhanced once thawed. No artificial or chemical odors should be present. Slight sweetness is noticeable when warm. Not overpowering, making it ideal for cold dishes too."
+    },
+    "nutrition": {
+      "vitaminC": "Negligible levels of vitamin C. Best paired with citrus-based sauces or fresh vegetables for nutritional balance. Not a vitamin-rich food. Focused more on protein content.",
+      "fiber": "No dietary fiber present. Smooth, refined texture without whole grains. Should be consumed with fiber-rich sides for a complete meal. Not intended as a source of roughage.",
+      "otherNutrients": "Provides moderate protein and low fat. Often enriched with fish-based nutrients. May contain small amounts of calcium or iron. Low calorie and low cholesterol. Ideal for low-fat or high-protein diets.",
+      "calories": "Roughly 30–40 kcal per stick, depending on size. Low in calories for portion-based eating. Suitable for light meals or snacks. Easily tracked for calorie-conscious consumers."
+    },
+    "uses": {
+      "fresh": "Thaw and enjoy directly in seafood salads, sandwiches, or cold platters. Pairs well with mayo, wasabi, or sweet chili sauce. Common in poke bowls or noodle dishes. Ideal for packed lunches and quick protein snacks.",
+      "culinary": "Essential in California sushi rolls and fusion seafood recipes. Can be shredded, diced, or sliced for stir-fries or pasta. May be lightly sautéed for added flavor. Great topping for ramen, rice bowls, or spring rolls. Often featured in seafood dips or baked casseroles."
+    },
+    "storage": {
+      "refrigeration": "Keep frozen until use. Once thawed, store in refrigerator and consume within 2–3 days. Do not refreeze after thawing. Keep tightly sealed to avoid moisture loss.",
+      "humidity": "Avoid moisture exposure during thawing. Best thawed in refrigeration, not at room temperature. Store in dry containers after opening. Free from condensation for best texture."
+    }
+  },
+ "images": [
+    "assets/images/frozen cate 6.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Frozen Blackberries",
+  "price": 150,
+  "rating": 5,
+  "quantity": 40,
+  "category": "Frozen",
+  "description": "These frozen blackberries are plump, juicy, and flash-frozen to preserve their natural sweetness and tart flavor. Ideal for smoothies, baking, or as a vibrant topping for breakfast bowls, they retain all the nutrients and color of fresh-picked berries. Convenient and ready to use right from the freezer, they offer a long shelf life without additives. Each berry bursts with antioxidant-rich juice and fiber. A must-have for health-conscious and culinary enthusiasts alike.",
+  "details": {
+    "appearance": {
+      "color": "Deep purple to black hue with a frosty white coating from freezing. Some berries show light reddish tones. Surface is bumpy with tightly clustered drupelets. Coating disappears once thawed. Glossy appearance when defrosted.",
+      "shape": "Small round clusters made up of multiple small drupelets. Each berry is about 0.5–1 inch wide. Naturally irregular but consistently plump. No stems or leaves present.",
+      "seeds": "Contains small, edible seeds within each drupelet. Seeds are soft and barely noticeable in smoothies. Naturally embedded in the flesh. Not externally visible.",
+      "freshness": "Flash-frozen immediately after harvest to lock in nutrients. Maintains firm texture when frozen. Should not appear mushy when properly stored. Long shelf life if kept frozen continuously."
+    },
+    "tasteAndAroma": {
+      "flavor": "Tangy, mildly sweet with a rich berry undertone. Flavor intensifies when thawed. Pairs well with honey, yogurt, and vanilla. Slightly tart profile ideal for balancing sweet dishes.",
+      "aroma": "Faint berry aroma when frozen, stronger once thawed. Smells like ripe summer fruit. No added fragrance or artificial scent. Natural and fresh scent upon opening."
+    },
+    "nutrition": {
+      "vitaminC": "High in vitamin C, supporting immune function. One of the key health benefits of these berries. Perfect as a natural supplement source.",
+      "fiber": "Rich in dietary fiber, promoting digestive health. Suitable for fiber-focused diets. Helps maintain fullness and gut regularity.",
+      "otherNutrients": "Packed with antioxidants, especially anthocyanins. Also provides vitamin K and manganese. Low in fat and sugar. Naturally nutrient-dense.",
+      "calories": "About 60 kcal per 100g. Low in calories and suitable for weight management. Great for smoothies and diet-friendly desserts."
+    },
+    "uses": {
+      "fresh": "Use straight from the freezer in smoothies, parfaits, or bowls. Can be thawed for toppings or fruit compotes. No prep needed beyond defrosting.",
+      "culinary": "Perfect for pies, jams, sauces, and cakes. Adds bold color and flavor to cocktails. Common in yogurt cups, chia puddings, or crumble fillings."
+    },
+    "storage": {
+      "refrigeration": "Store at -18°C or below. Do not refreeze after thawing. Use within a week once defrosted. Keep sealed to prevent freezer burn.",
+      "humidity": "Keep dry to avoid clumping. Use resealable bags or containers. Avoid thaw-refreeze cycles to preserve texture and nutrients."
+    }
+  },
+"images": [
+    "assets/images/frozen cate 7.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Strawberry Soft Serve Cone",
+  "price": 60,
+  "rating": 4,
+  "quantity": 50,
+  "category": "Frozen",
+  "description": "This strawberry soft serve cone delivers a delightful swirl of fruity sweetness in a crispy waffle cone. Light and airy in texture, the ice cream melts smoothly in the mouth, offering a refreshing strawberry burst with each bite. It’s the perfect quick treat for warm days, street snacks, or casual indulgence. The cone stays crisp while complementing the cool, creamy topping. A visually vibrant dessert that’s as fun to eat as it is to share.",
+  "details": {
+    "appearance": {
+      "color": "Bright pink swirl of soft-serve ice cream on a light golden waffle cone. Vivid and cheerful. Glossy texture with slight shine under light. Cone has a cross-hatch pattern.",
+      "shape": "Tall, upward swirl with a tapered peak. Ice cream is neatly spiraled for a uniform look. Cone is conical with slight curve at the rim. Fits comfortably in one hand.",
+      "seeds": "No seeds present. Ice cream is completely smooth. Pure strawberry-flavored cream with no inclusions.",
+      "freshness": "Served fresh at optimal cold temperature. Ice cream should be firm but creamy. Cone remains crunchy and dry. Best consumed immediately after serving."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet, creamy strawberry flavor with hints of vanilla. Light and balanced, not overly sugary. Cone adds a mild toasted crunch. Pleasing to both kids and adults.",
+      "aroma": "Fresh strawberry scent with a subtle dairy background. Aromatic but not overpowering. Enhances the sense of indulgence when served cold."
+    },
+    "nutrition": {
+      "vitaminC": "Contains a small amount of vitamin C from strawberry flavoring. Not a significant source. Best paired with fresh fruit for added nutrients.",
+      "fiber": "Minimal fiber content. Cream-based product with no fibrous ingredients. Not intended for dietary fiber.",
+      "otherNutrients": "Provides calcium and simple carbohydrates. Contains sugars and small amounts of fat. Light on the stomach and easy to digest.",
+      "calories": "Approximately 120–150 kcal per cone. Portion-controlled for light snacking. Suitable for occasional treats in moderate diets."
+    },
+    "uses": {
+      "fresh": "Ideal as a walk-around dessert or summer treat. Consumed as-is straight from serving. Pairs well with toppings like sprinkles or syrup.",
+      "culinary": "Used in dessert stations, food trucks, and cafés. Can be dipped in chocolate or topped with whipped cream for custom versions. Occasionally used in milkshake blends."
+    },
+    "storage": {
+      "refrigeration": "Not suitable for long storage once served. Soft-serve mix can be stored frozen before use. Serve immediately once dispensed.",
+      "humidity": "Must be stored in low humidity to avoid cone softening. Best consumed before melting. Do not expose to warm or wet environments."
+    }
+  },
+"images": [
+    "assets/images/frozen cate 8.png",
+    "assets/images/frozen des 1.png",
+    "assets/images/frozen des 2.png"
+  ]
+},
+{
+  "name": "Fresh Strawberries",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Fruits",
+  "description": "Bright red, juicy strawberries packed with natural sweetness and a slight tart edge. These plump berries are handpicked at peak ripeness to ensure maximum flavor and freshness. Perfect for snacking, desserts, or blending into smoothies. Each bite bursts with summery flavor and fragrant aroma. A nutritious and vibrant addition to your daily fruit intake.",
+  "details": {
+    "appearance": {
+      "color": "Vibrant red with a slight sheen and tiny yellow seeds on the surface. The green leafy cap contrasts with the rich red flesh. Skin is smooth and slightly bumpy from the embedded seeds. Uniform color across the berry indicates ripeness. Some berries may have faint white tips when less ripe.",
+      "shape": "Conical or heart-shaped with slight curves and a pointed tip. Each berry is around 1–2 inches in length. Rounded body tapers toward the end. Some variation in size is natural. Typically symmetrical and plump, with no shriveling or flattening.",
+      "seeds": "Numerous tiny yellow seeds cover the surface, embedded slightly within the skin. Seeds are non-intrusive when eaten and add to texture. No internal seeds present. Surface seeds are evenly spaced and remain intact. Contribute to strawberry’s signature look.",
+      "freshness": "Picked fresh and stored in chilled conditions to maintain firmness. Should feel slightly soft but not mushy. Bright red color and green tops are freshness indicators. Mild sweet scent confirms quality. Best consumed within a few days of purchase."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and slightly tangy flavor with juicy texture. Fully ripened berries are intensely sweet. Younger berries have a sharper tang. The flesh is tender and melts in the mouth. Balanced flavor makes it versatile for sweet or savory uses.",
+      "aroma": "Delicate, fruity aroma that becomes more pronounced at room temperature. Notes of honey and citrus may be present. Fresh berries emit a clean, appealing fragrance. No artificial or sour smells. Indicative of freshness and ripeness."
+    },
+    "nutrition": {
+      "vitaminC": "Excellent source of vitamin C. One cup provides over 100% of daily requirement. Supports immune health and skin repair. High antioxidant content. Great natural source without additives. Ideal for a vitamin-rich diet.",
+      "fiber": "Rich in dietary fiber, especially pectin. Supports digestive health. Each cup offers about 3 grams of fiber. Helps regulate blood sugar and satiety. Suitable for fiber-conscious diets and healthy snacking.",
+      "otherNutrients": "Contains folate, potassium, manganese, and antioxidants. Low in calories and fat. Helpful for heart and brain health. Antioxidants may reduce inflammation. Suitable for all ages and dietary needs.",
+      "calories": "Approximately 50 kcal per cup. Low-calorie fruit option. Perfect for weight-conscious individuals. Can be enjoyed in large portions guilt-free. Naturally sweet with minimal energy impact."
+    },
+    "uses": {
+      "fresh": "Ideal for fresh snacking, fruit salads, or yogurt toppings. Serve chilled for maximum refreshment. Pair with chocolate or whipped cream for dessert. Excellent addition to breakfast bowls. Commonly enjoyed as-is for a juicy treat.",
+      "culinary": "Used in tarts, smoothies, sauces, and preserves. Adds vibrant color to cakes and pastries. Blends well into ice creams or sorbets. Can be sliced, puréed, or macerated. Popular in cocktails and fruit compotes."
+    },
+    "storage": {
+      "refrigeration": "Store unwashed in the fridge in breathable packaging. Keeps fresh for 3–5 days. Washing before storage may shorten shelf life. Best to rinse just before use. Refrigeration retains firmness and aroma.",
+      "humidity": "Keep in a low-humidity crisper drawer or on paper towels. Avoid excess moisture to prevent mold. Do not store in airtight containers. Ensure ventilation to reduce condensation. Dry surroundings preserve texture and taste."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 1.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Crisp Red Apples",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Fruits",
+  "description": "Firm, juicy apples with a naturally sweet and mildly tart flavor profile. These hand-selected apples offer a perfect crunch and are great for snacking or slicing into salads. Their glossy skin and crisp bite make them a family favorite. Loaded with nutrients, they’re both refreshing and energizing. A wholesome and versatile fruit to enjoy any time of day.",
+  "details": {
+    "appearance": {
+      "color": "Glossy red with subtle yellow or green undertones depending on ripeness. Skin is smooth and polished. Flesh inside is pale cream or white. Occasionally faint speckles or lenticels may be visible. Consistent color signifies freshness and quality.",
+      "shape": "Round to slightly oblong with a firm, dense structure. Top and bottom are flattened slightly. Average diameter is 3–4 inches. Symmetrical profile makes it visually appealing. Stem and blossom ends are well-defined.",
+      "seeds": "Contains several brown oval seeds in a star-shaped core. Seeds are small and enclosed inside fibrous center. Not consumed directly. Core can be removed before slicing. Seed cavities remain firm and free from decay when fresh.",
+      "freshness": "Fresh apples are firm with no soft spots or blemishes. Should feel heavy for their size. Skin is tight without wrinkling. Crisp texture when bitten into. Sweet, fruity smell is a good freshness indicator."
+    },
+    "tasteAndAroma": {
+      "flavor": "Balanced sweetness with a hint of tanginess. Flavor varies slightly by variety but always clean and refreshing. Firm bite offers a juicy snap. No bitterness or aftertaste. Suitable for all palates, including children.",
+      "aroma": "Mild and fruity with floral notes. Distinct apple scent intensifies when sliced. Ripe apples have a sweet, orchard-like aroma. No sourness or fermentation smells. Pleasantly fragrant when stored at room temperature."
+    },
+    "nutrition": {
+      "vitaminC": "Moderate source of vitamin C. Supports immune system and skin health. One medium apple provides about 10% of daily requirement. Best retained when eaten raw. Peel contains higher concentration than flesh.",
+      "fiber": "High in soluble fiber, especially pectin. Promotes digestion and fullness. Each apple offers around 4 grams of fiber. Excellent for heart health and cholesterol management. Most fiber is in the peel.",
+      "otherNutrients": "Provides potassium, vitamin K, and antioxidants. Low in fat and sodium. Polyphenols aid in reducing inflammation. Suitable for diabetic-friendly and low-calorie diets. Natural sugars give sustained energy.",
+      "calories": "Roughly 95 kcal per medium apple. Low-calorie snack option. Great for weight management and energy boosts. Can be paired with nut butter for added nutrition. Guilt-free inclusion in daily diet."
+    },
+    "uses": {
+      "fresh": "Enjoy raw as a snack, sliced into salads, or served with dips. Perfect addition to lunchboxes. Can be eaten whole or peeled. Great for juicing or smoothie bases. Ideal for fruit platters or breakfast bowls.",
+      "culinary": "Widely used in baking (pies, crumbles), roasting, and sauces. Adds texture to savory dishes like slaws. Can be dried or stewed. Blends well with cinnamon and honey. Used in chutneys and cider production."
+    },
+    "storage": {
+      "refrigeration": "Best kept in the fridge to maintain crunch and prevent overripening. Store in crisper drawer or breathable bag. Keeps fresh for up to 2 weeks. Avoid storing near bananas or ethylene-producing fruits. Room temperature shortens shelf life.",
+      "humidity": "Moderate humidity preferred. Too dry can cause wrinkling, too humid may induce mold. Keep away from condensation. Store on paper towel if moisture is present. Balance is key for long-lasting freshness."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 2.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Fresh Yellow Bananas",
+  "price": 80,
+  "rating": 5,
+  "quantity": 50,
+  "category": "Fruits",
+  "description": "Naturally sweet and creamy bananas with a smooth texture and mild flavor. These ripe bananas are a staple fruit, loved for their portability and nutrition. Perfect for breakfast, snacks, or desserts. Easy to peel and digest, making them a popular choice for all age groups. Rich in energy and loaded with essential nutrients to fuel your day.",
+  "details": {
+    "appearance": {
+      "color": "Bright yellow skin when fully ripe, occasionally with small brown spots. Unripe bananas appear greenish, while overripe ones turn brown-black. Inside flesh is pale cream or ivory. Skin is smooth and unbroken when fresh.",
+      "shape": "Elongated, curved cylindrical shape, typically 6–8 inches long. Rounded edges and tapering ends. Slight ridges run lengthwise. Grows in clusters called hands. Firm structure without bruises or soft spots.",
+      "seeds": "Cultivated bananas have tiny, soft, almost invisible seeds embedded in the flesh. Not noticeable during eating. No hard or sharp seed texture. Seedless appearance contributes to its smooth bite. Edible core throughout.",
+      "freshness": "Firm yet slightly yielding to gentle pressure when ripe. Peel should open easily. No mushy areas or liquid leaks. Sweet aroma and vibrant yellow tone signal freshness. Unblemished skin with intact tips preferred."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and creamy with hints of vanilla and honey. Soft and mellow profile. Ripe bananas offer maximum sugar content. Green bananas are starchier and less sweet. Overripe bananas have intense banana flavor ideal for baking.",
+      "aroma": "Fragrant and fruity, most prominent when ripe. Slightly floral and sweet scent. Green bananas have a faint odor. As ripeness increases, aroma becomes stronger and more tropical. No sour or fermented smell unless spoiled."
+    },
+    "nutrition": {
+      "vitaminC": "Moderate source of vitamin C, supporting skin and immune health. Helps in collagen production. One banana offers about 10% of daily vitamin C needs. Best consumed raw for vitamin retention. Not a primary source but beneficial.",
+      "fiber": "Good source of dietary fiber, mainly pectin and resistant starch. Aids digestion and promotes gut health. Roughly 3 grams of fiber per medium banana. Green bananas contain more resistant starch. Gentle on sensitive stomachs.",
+      "otherNutrients": "Rich in potassium, vitamin B6, and magnesium. Low in fat and sodium. Natural sugars provide quick energy. Contains small amounts of folate and manganese. Excellent for heart health and muscle function.",
+      "calories": "About 105 kcal per medium banana. Moderate energy source for active lifestyles. Ideal pre- or post-workout snack. Fills without being heavy. Can be combined with yogurt or oats for a complete meal."
+    },
+    "uses": {
+      "fresh": "Best enjoyed raw, peeled and eaten as-is. Common in breakfast bowls, smoothies, and fruit salads. Great on toast or with peanut butter. Portable and mess-free snack. Easy food for toddlers and seniors alike.",
+      "culinary": "Used in baking (banana bread, muffins), pancakes, and puddings. Mashed for weaning foods or smoothies. Frozen for blending or desserts. Sliced into cereals or custards. Combines well with chocolate, oats, and nuts."
+    },
+    "storage": {
+      "refrigeration": "Store at room temperature until ripe. Refrigerate ripe bananas to slow browning — peel may darken but fruit stays fresh. Do not refrigerate unripe ones. Can be frozen (peeled) for long-term use. Avoid sealed containers.",
+      "humidity": "Keep in low-humidity, ventilated areas. Excess humidity speeds up spoilage. Hang in banana hangers or store on open counter. Avoid plastic wraps. Paper bag traps ethylene and hastens ripening when needed."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 3.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Juicy Red Watermelon",
+  "price": 60,
+  "rating": 4,
+  "quantity": 30,
+  "category": "Fruits",
+  "description": "Refreshing, hydrating watermelon with deep red flesh and natural sweetness. This summer favorite is loved for its juicy texture and crisp bite. Low in calories yet bursting with flavor, making it perfect for hot weather and healthy snacking. Often enjoyed fresh, chilled, or as part of salads and drinks. Its vibrant color and cooling taste make it an instant crowd-pleaser.",
+  "details": {
+    "appearance": {
+      "color": "Outer rind is deep green with alternating light green stripes or mottling. Inside flesh is vibrant red or pink, speckled with black or white seeds. Skin is thick, smooth, and waxy. Flesh appears moist and glistening.",
+      "shape": "Large oval or round fruit, typically 10–20 inches long and weighing 5–15 kg. Flesh is dense yet tender. Interior is seed-studded and uniform. Each slice forms a semicircle or wedge when cut across the diameter.",
+      "seeds": "Contains firm, oval black seeds embedded in flesh. Some varieties have white immature seeds or are seedless. Seeds are edible but usually removed. Easily visible and removable. Texture varies slightly near seeds.",
+      "freshness": "Heavy for its size with a dull, hollow sound when tapped. Rind is firm, intact, and unbroken. No soft spots or leaks. Cut pieces should be stored cold and consumed within days. Sweet aroma indicates peak ripeness."
+    },
+    "tasteAndAroma": {
+      "flavor": "Mildly sweet and watery with a clean finish. Refreshing bite without acidity. Ideal for hydrating and cooling. Seedless types taste slightly milder. Chilled watermelon enhances its subtle sweetness.",
+      "aroma": "Light, clean scent with hints of cucumber and melon. Aroma is stronger in cut pieces. Whole watermelons emit faint smell unless cracked open. No sour or fermenting smell unless spoiled or overripe."
+    },
+    "nutrition": {
+      "vitaminC": "Excellent source of vitamin C, offering up to 20% of daily value per serving. Supports immunity and skin health. Best consumed raw for maximum benefit. High water content enhances absorption. Not heat-stable.",
+      "fiber": "Low in fiber overall. A small amount of roughage from flesh and seeds. Suitable for light, easy digestion. Can support hydration without bloating. Rind is not consumed but can be pickled for added fiber.",
+      "otherNutrients": "High in water (over 90%) and contains lycopene, a powerful antioxidant. Also provides vitamin A, magnesium, and potassium. Natural sugars offer instant refreshment. Calorie-light despite size.",
+      "calories": "Only about 30 kcal per 100g serving. Makes it one of the lowest-calorie fruits. Ideal for weight-conscious diets and hydration. Can be enjoyed in large quantities. Balanced with natural sugars and fluids."
+    },
+    "uses": {
+      "fresh": "Served cold as slices or cubes. Excellent for picnics, parties, or hydration. Adds color and sweetness to fruit platters. Enjoyed alone or paired with mint, lime, or feta cheese. Refreshing on its own or with a sprinkle of salt.",
+      "culinary": "Used in smoothies, sorbets, granitas, and infused waters. Great in salads and cold soups like gazpacho. Rind can be pickled. Pureed for beverages or frozen desserts. Juiced for summer coolers or cocktails."
+    },
+    "storage": {
+      "refrigeration": "Whole watermelon stores well at room temp. Once cut, refrigerate tightly wrapped or in containers. Consume within 3–4 days for best flavor. Freezing affects texture but works for smoothies. Avoid moisture buildup in containers.",
+      "humidity": "Keep whole watermelon in dry conditions to prevent mold on rind. Refrigerated slices should stay in low-humidity compartments. Wrap well to avoid moisture loss. Avoid condensation during storage. Proper airflow ensures longer shelf life."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 4.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Tropical Pineapple",
+  "price": 95,
+  "rating": 4,
+  "quantity": 35,
+  "category": "Fruits",
+  "description": "Juicy tropical pineapples bursting with sweet and tangy flavor, ideal for refreshing snacks and exotic recipes. Grown in warm climates, these fruits are packed with natural sugars and a hint of acidity that dances on the palate. Their vibrant yellow flesh is fibrous, moist, and fragrant, offering a bold tropical bite. Perfect for slicing, juicing, grilling, or adding to smoothies. Pineapples are a delicious and nutritious choice for energizing your day.",
+  "details": {
+    "appearance": {
+      "color": "Golden yellow flesh encased in a greenish-brown spiky rind. The outer skin has a rough, diamond-patterned texture with leaf-like crown on top. When ripe, the inside glows with vibrant yellow hues. A fresh cut reveals glistening flesh and faint internal core. Overall appearance is tropical and bright.",
+      "shape": "Oval to cylindrical body topped with a leafy crown. Average height is 5–8 inches, with a tapered top and rounded bottom. Consistently symmetrical with uniform segments marked on the surface. The internal core runs down the center. Slicing reveals wheel-like rounds or spears.",
+      "seeds": "No visible seeds in the edible part. Pineapples reproduce without true seeds. The flesh is smooth and uninterrupted. Only the fibrous core runs centrally. Easy to eat without seed removal. Ideal for juicing, slicing, or blending.",
+      "freshness": "Selected when fully ripe to ensure natural sweetness and strong aroma. Exterior should be firm with slight give when pressed. Leafy crown remains green and crisp when fresh. Refrigerate after cutting to maintain juiciness. Use quickly after slicing for best flavor and texture."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet and slightly tart with a tropical brightness. Each bite delivers a juicy burst with fibrous crunch. Balanced acidity enhances the fruity sweetness. Distinct tropical notes make it refreshing. Versatile taste that complements sweet and savory dishes.",
+      "aroma": "Fresh tropical scent with floral and citrus notes. Ripe pineapples exude a strong, sugary aroma from the base. The scent intensifies once cut. Appeals strongly in fruit bowls or juice blends. Naturally fragrant without artificial notes."
+    },
+    "nutrition": {
+      "vitaminC": "Very high in vitamin C, supporting immune function and collagen production. Just one serving offers over 100% of daily needs. Ideal for cold recovery or general wellness. Boosts antioxidant intake. Natural way to stay refreshed and fortified.",
+      "fiber": "Good source of dietary fiber, especially when eaten fresh. Helps regulate digestion and prolongs satiety. Fibrous texture supports healthy gut movement. Ideal for light detox or balanced diets. Enjoy whole or as spears for maximum fiber.",
+      "otherNutrients": "Contains manganese, vitamin B6, and bromelain enzyme. Supports metabolism, bone strength, and inflammation control. Bromelain may aid digestion and reduce bloating. A smart addition to active or health-conscious routines. Naturally low in fat and sodium.",
+      "calories": "Around 82 kcal per 1-cup serving (165g). Low-calorie fruit with high water content. Can be enjoyed freely in weight-conscious diets. Adds energy without heaviness. Excellent for hydration and revitalization."
+    },
+    "uses": {
+      "fresh": "Slice and serve raw as a snack, dessert topping, or fruit platter star. Perfect for breakfast bowls, lunchboxes, or refreshing bites. Works well chilled or grilled. Best enjoyed cold in tropical weather. Add lime or chili for enhanced zest.",
+      "culinary": "Common in fruit salads, smoothies, salsas, and cocktails. Pairs beautifully with mint, coconut, and seafood. Great for grilling with meats or using in upside-down cakes. Also used in jams, chutneys, and marinades. Adds flair to tropical cuisine."
+    },
+    "storage": {
+      "refrigeration": "Whole pineapples can be stored at room temperature for a few days. Once cut, refrigerate in an airtight container. Best consumed within 3–5 days after slicing. Cold storage preserves sweetness and prevents spoilage. Avoid freezing for best texture.",
+      "humidity": "Prefers moderate to high humidity if uncut. In low humidity, wrap cut pieces to retain moisture. Store away from ethylene-sensitive produce. Keep container sealed to avoid drying. A cut pineapple can absorb odors if unsealed."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 5.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Juicy Oranges",
+  "price": 85,
+  "rating": 4,
+  "quantity": 40,
+  "category": "Fruits",
+  "description": "Vibrant, sun-ripened oranges packed with refreshing citrus flavor and natural sweetness. Each orange is filled with juicy segments perfect for eating fresh, juicing, or adding to both savory and sweet dishes. These fruits are known for their high vitamin C content and hydrating qualities. Their bold color and zesty fragrance make them a staple in healthy, everyday snacking. Oranges are a timeless fruit enjoyed across cultures and cuisines.",
+  "details": {
+    "appearance": {
+      "color": "Bright orange peel with a smooth, dimpled texture. Flesh inside ranges from deep yellow to vivid orange, with translucent juice-filled vesicles. When ripe, the outer rind is evenly colored with no green patches. A fresh cut reveals neatly arranged segments. Visually appealing and vibrant.",
+      "shape": "Spherical to slightly flattened at the top and bottom. Average diameter is 2.5–3 inches. Each orange has a central pith and multiple wedge-like segments. Rounded and uniform with a gentle sheen. Compact structure makes it easy to peel and portion.",
+      "seeds": "May contain small cream-colored seeds in the central pulp. Some varieties are seedless or have minimal seeds. Seeds are smooth, elliptical, and easily removable. Not disruptive to overall eating experience. Ideal for both eating and juicing.",
+      "freshness": "Firm to the touch with a slight bounce when pressed. Rind should feel tight and emit a citrus aroma when scratched. Juicy and plump interior indicates freshness. Best enjoyed within a week of purchase. Store properly to retain natural moisture and tang."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet with a bright citrus tang. Balanced acidity provides a zesty kick. Each segment bursts with juice, delivering a refreshing sensation. Taste varies slightly by variety, but all offer a clean, crisp flavor. Versatile for pairing with other fruits or used in recipes.",
+      "aroma": "Classic citrus scent with hints of floral and zest. Fresh oranges give off a lively and invigorating aroma. Scent intensifies once peeled or sliced. Pleasant and energizing, reminiscent of summer or tropical environments. Popular for natural air-freshening qualities."
+    },
+    "nutrition": {
+      "vitaminC": "Excellent source of vitamin C, providing over 100% of daily needs per serving. Supports immune health, skin vitality, and iron absorption. Great for daily consumption. Natural and potent antioxidant profile. Ideal during cold and flu season.",
+      "fiber": "Contains dietary fiber mainly in the membranes and pulp. Promotes digestion and gut health. Eating whole oranges (instead of just juice) increases fiber intake. Helps regulate appetite and maintain fullness. Perfect for clean eating routines.",
+      "otherNutrients": "Offers potassium, folate, and some vitamin A. Potassium aids heart health and hydration. Folate supports metabolism and cell growth. Low in calories and fat. Hydrating and replenishing after exercise. Contributes to daily nutrient diversity.",
+      "calories": "Roughly 62 kcal per medium orange (130g). Light yet satisfying snack. Easy to include in calorie-controlled diets. High water content makes it ideal for warm days. A guilt-free fruit choice for any time of day."
+    },
+    "uses": {
+      "fresh": "Eaten raw as wedges or slices, or peeled and segmented. Great for fruit salads, school lunches, or quick snacks. Pairs with nuts, chocolate, or yogurt. Serve chilled for maximum refreshment. Peel zest can also flavor water or tea.",
+      "culinary": "Used in marmalades, desserts, sauces, and glazes. Popular in baking, salad dressings, and marinades. Juice adds brightness to smoothies and cocktails. Zest provides citrus punch in cakes and savory dishes. Works well in both Western and Asian cuisines."
+    },
+    "storage": {
+      "refrigeration": "Can be stored at room temperature for 3–5 days. For longer shelf life, keep in refrigerator crisper drawer. Avoid sealed plastic bags to prevent moisture buildup. Best consumed within a week. Peel and refrigerate in sealed containers once cut.",
+      "humidity": "Moderate humidity prevents drying. Keep in breathable mesh or perforated bags. Avoid damp storage to prevent mold. Maintain air circulation to prolong shelf life. Cut pieces should be stored in low-humidity sealed containers."
+    }
+  },
+"images": [
+    "assets/images/fruits cate 6.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+},
+{
+  "name": "Fresh Cherries",
+  "price": 80,
+  "rating": 5,
+  "quantity": 100,
+  "category": "Fruits",
+  "description": "Juicy, plump cherries with deep ruby red skin and firm flesh bursting with sweet-tart flavor. Hand-picked at peak ripeness to ensure maximum freshness and natural sweetness. These cherries are perfect for snacking, baking, or garnishing desserts. A refreshing summer favorite with a delightful crunch and vibrant color. Packed with antioxidants and nutrients to support overall wellness.",
+  "details": {
+    "appearance": {
+      "color": "Dark ruby red to deep burgundy, glossy exterior with a rich tone. The stems are bright green and fresh-looking, sometimes attached in bunches. Flesh inside is light red or pinkish. Some cherries may have natural dimples or slight marks from harvest. Overall appearance is fresh, juicy, and eye-catching.",
+      "shape": "Round to slightly heart-shaped with a plump, symmetrical form. Each cherry is approximately 2–2.5 cm in diameter. The skin is taut and smooth. A small dimple at the top where the stem attaches. Uniform size and shape across batches indicate high quality.",
+      "seeds": "Each cherry contains a single hard pit at its core. The pit is oval, smooth, and light brown. Not edible and should be discarded before consumption or used with care in baking. No external seeds visible. Always seed-free on the outside.",
+      "freshness": "Cherries are firm but yield slightly under gentle pressure, indicating juiciness. No wrinkling or shriveling should be present. Stems are green and pliable, not brittle. Stored at optimal conditions to preserve their texture and moisture. Freshly harvested within days of packaging."
+    },
+    "tasteAndAroma": {
+      "flavor": "Balanced sweetness with a subtle tartness. The skin provides a slight resistance followed by a burst of juicy flavor. Notes of berry and almond-like undertones may be present. Perfect for both snacking and desserts. Refreshing and deeply satisfying taste.",
+      "aroma": "Mild and fruity with a hint of floral essence. Naturally sweet scent that intensifies when cherries are at room temperature. No off-smells or fermentation. Aroma evokes summer freshness and orchard quality. Not overpowering, but clearly fragrant."
+    },
+    "nutrition": {
+      "vitaminC": "High in vitamin C, supporting immune health and collagen production. One cup provides a significant portion of daily recommended intake. Great for boosting skin and overall health. A fresh, natural source of antioxidants. Best enjoyed raw for maximum vitamin retention.",
+      "fiber": "Good source of dietary fiber, especially from the skin. Aids digestion and helps regulate blood sugar levels. Approximately 3 grams of fiber per cup. Supports heart health and satiety. Beneficial for maintaining a balanced diet.",
+      "otherNutrients": "Contains potassium, magnesium, and melatonin. Offers anti-inflammatory compounds and flavonoids. Supports sleep and recovery. Low in calories and fat. Nutrient-dense option for all ages.",
+      "calories": "Roughly 90–100 kcal per cup (150g). Suitable for calorie-conscious diets. Low energy density with high nutrient output. A guilt-free indulgence. Easily incorporated into snacks or meals."
+    },
+    "uses": {
+      "fresh": "Best consumed fresh, chilled or at room temperature. Ideal for fruit bowls, school lunches, or simple snacking. Great addition to summer platters and brunch menus. Can be pitted and halved for salads. Refreshing on their own or with yogurt.",
+      "culinary": "Used in pies, tarts, sauces, and jams. Excellent in baked goods, cocktails, or compotes. Can be pickled or dried for extended use. Popular topping for desserts or ice cream. Also pairs well with cheeses and meats in gourmet dishes."
+    },
+    "storage": {
+      "refrigeration": "Keep refrigerated to extend shelf life up to a week. Store unwashed until ready to use. Best kept in breathable containers or paper bags. Do not seal airtight as moisture buildup can spoil fruit. Keep away from strong-smelling foods.",
+      "humidity": "Maintain moderate humidity. Too dry can cause shriveling; too wet promotes mold. Use crisper drawers for best results. Avoid washing before storing. Paper towels or cloth can help manage excess moisture."
+    }
+  },
+  "images": [
+    "assets/images/fruits cate 7.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+
+},
+{
+  "name": "Fresh Apricots",
+  "price": 80,
+  "rating": 5,
+  "quantity": 100,
+  "category": "Fruits",
+  "description": "Golden apricots with velvety skin and a soft, juicy interior offering a mildly sweet and tangy flavor. Perfect for fresh eating or culinary use, they deliver a delicate balance of tartness and floral notes. Handpicked to ensure ideal ripeness and flavor. Rich in vitamins and fiber, making them a healthy and tasty snack. A summery fruit that’s versatile and delicious in both sweet and savory recipes.",
+  "details": {
+    "appearance": {
+      "color": "Warm golden orange with blushes of red on some skins. Matte, slightly fuzzy texture similar to peaches. The flesh is a vibrant orange. No dark spots or green areas. Fresh and bright color indicates ripeness.",
+      "shape": "Small and oval with a slight crease running along one side. Typically 4–5 cm in length. Firm yet tender to the touch. Halves cleanly when cut around the seed. Uniform and compact in shape.",
+      "seeds": "Each apricot contains a single central pit. The seed is almond-shaped and tan in color. Not consumed directly. Pit is easily removable when the fruit is ripe. No external seeds visible.",
+      "freshness": "Firm with a slight give when gently squeezed. Flesh should not be mushy or overly hard. Skin remains intact and free from blemishes. Fruits should be plump and aromatic. Harvested fresh and minimally handled to preserve quality."
+    },
+    "tasteAndAroma": {
+      "flavor": "Sweet with a hint of tartness, especially near the skin. Notes of honey and floral undertones. Smooth, juicy texture with mild acidity. A mellow, refreshing flavor that intensifies when ripe. Not overly sugary.",
+      "aroma": "Delicate, fruity aroma with subtle floral hints. Similar to peaches but more subdued. A soft fragrance that increases with ripeness. Pleasant and natural scent, never overpowering or artificial. Most fragrant at room temperature."
+    },
+    "nutrition": {
+      "vitaminC": "High in vitamin C, boosting immunity and skin health. A small handful contributes to daily intake. Best consumed raw for optimal nutrient absorption. Adds a natural antioxidant punch to meals. Great for daily wellness.",
+      "fiber": "Rich in fiber, aiding digestion and promoting fullness. Both the skin and flesh offer dietary fiber. Contributes to gut health and regularity. A healthy option for fiber-conscious diets. Supports balanced energy levels.",
+      "otherNutrients": "Good source of vitamin A, potassium, and antioxidants. Low in fat and sodium. May benefit eye health and hydration. Naturally sweet without added sugar. Suitable for clean eating and whole-food diets.",
+      "calories": "Approximately 50 kcal per 100g. Low-calorie snack option. Perfect for weight-conscious individuals. Combines flavor and nutrition in small portions. Great for portion-controlled diets."
+    },
+    "uses": {
+      "fresh": "Enjoy raw as a standalone fruit or part of fruit salads. Excellent in kids’ snacks and lunchboxes. Can be sliced and served with yogurt or cheese. Pairs well with nuts. Delicious when chilled or at room temperature.",
+      "culinary": "Ideal for making jams, compotes, and baked goods. Used in pies, tarts, and chutneys. Can be dried for year-round use. Complements both sweet and savory dishes. Pairs well with poultry, pork, and baked cheeses."
+    },
+    "storage": {
+      "refrigeration": "Store in the refrigerator to slow ripening. Can last up to 5–7 days when cold. Best to allow to ripen at room temperature first. Once ripe, chill to preserve freshness. Avoid sealed bags that trap moisture.",
+      "humidity": "Keep in a moderately humid environment. Use breathable containers to prevent mold. Paper bags or towels help absorb excess moisture. Do not wash until ready to eat. Avoid condensation build-up in fridge."
+    }
+  },
+   "images": [
+    "assets/images/fruits cate 8.png",
+    "assets/images/fruit des 1.png",
+    "assets/images/fruit des 3.png"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
